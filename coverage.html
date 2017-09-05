@@ -1,0 +1,3350 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Spring Cloud Data Flow Dashboard Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">Spring Cloud Data Flow Dashboard Documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">Spring Cloud Data Flow Dashboard Documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="./overview.html" 
+                                         href="./overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AboutModule.html" >AboutModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AnalyticsModule.html" >AnalyticsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AnalyticsRoutingModule.html" >AnalyticsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppsModule.html" >AppsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppsRoutingModule.html" >AppsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AuthModule.html" >AuthModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AuthRoutingModule.html" >AuthRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/JobsModule.html" >JobsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/JobsRoutingModule.html" >JobsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/RuntimeAppsModule.html" >RuntimeAppsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/RuntimeAppsRoutingModule.html" >RuntimeAppsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/SharedModule.html" >SharedModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/StreamsModule.html" >StreamsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/StreamsRoutingModule.html" >StreamsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/TasksModule.html" >TasksModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/TasksRoutingModule.html" >TasksRoutingModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AboutDetailsComponent.html" >AboutDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AnalyticsComponent.html" >AnalyticsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppDetailsComponent.html" >AppDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsBulkImportComponent.html" >AppsBulkImportComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsComponent.html" >AppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsRegisterComponent.html" >AppsRegisterComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/DefinitionStatusComponent.html" >DefinitionStatusComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobExecutionDetailsComponent.html" >JobExecutionDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobExecutionStatusComponent.html" >JobExecutionStatusComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobsComponent.html" >JobsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/LoginComponent.html" >LoginComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/LogoutComponent.html" >LogoutComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/PropertiesDialogComponent.html" >PropertiesDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/PropertyTableComponent.html" >PropertyTableComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/RolesMissingComponent.html" >RolesMissingComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/RuntimeAppsComponent.html" >RuntimeAppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StepExecutionDetailsComponent.html" >StepExecutionDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StepExecutionProgressComponent.html" >StepExecutionProgressComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamCreateComponent.html" >StreamCreateComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamCreateDialogComponent.html" >StreamCreateDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDefinitionsComponent.html" >StreamDefinitionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDeployComponent.html" >StreamDeployComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDetailsComponent.html" >StreamDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamsComponent.html" >StreamsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TabComponent.html" >TabComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TabsComponent.html" >TabsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskAppDetailsComponent.html" >TaskAppDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskAppsComponent.html" >TaskAppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskBulkDefineComponent.html" >TaskBulkDefineComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskCreateComponent.html" >TaskCreateComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskCreateComposedTaskComponent.html" >TaskCreateComposedTaskComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskDefinitionsComponent.html" >TaskDefinitionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskExecutionsComponent.html" >TaskExecutionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskExecutionsDetailsComponent.html" >TaskExecutionsDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskLaunchComponent.html" >TaskLaunchComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TasksComponent.html" >TasksComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TriStateButtonComponent.html" >TriStateButtonComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TriStateCheckboxComponent.html" >TriStateCheckboxComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-directives-links"
+                            >
+                            <span class="fa fa-code"></span>
+                            <span>Directives</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-directives-links"
+                            >
+                                <li class="link">
+                                    <a href="./directives/CapsLockDirective.html" >CapsLockDirective</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./directives/ClickOutsideDirective.html" >ClickOutsideDirective</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./directives/RolesDirective.html" >RolesDirective</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="./classes/AboutInfo.html" >AboutInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppDeployer.html" >AppDeployer</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppInfo.html" >AppInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppInfoOptions.html" >AppInfoOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppRegistration.html" >AppRegistration</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppRegistrationImport.html" >AppRegistrationImport</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ConfigurationMetadataProperty.html" >ConfigurationMetadataProperty</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Core.html" >Core</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/CountDetails.html" >CountDetails</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Dashboard.html" >Dashboard</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DataflowVersionInfo.html" >DataflowVersionInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DateTimeUtils.html" >DateTimeUtils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DefaultRequestOptions.html" >DefaultRequestOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Deprecation.html" >Deprecation</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DetailedAppRegistration.html" >DetailedAppRegistration</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ErrorHandler.html" >ErrorHandler</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ExecutionContext.html" >ExecutionContext</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/FeatureInfo.html" >FeatureInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/GraphToTextConverter.html" >GraphToTextConverter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/HttpUtils.html" >HttpUtils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Implementation.html" >Implementation</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/InternalParser.html" >InternalParser</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/JobExecution.html" >JobExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/LoginRequest.html" >LoginRequest</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Metadata.html" >Metadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockAboutService.html" >MockAboutService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockActivatedRoute.html" >MockActivatedRoute</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockAuthService.html" >MockAuthService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockComponent.html" >MockComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockJobsService.html" >MockJobsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockMetamodelService.html" >MockMetamodelService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockResponse.html" >MockResponse</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockRuntimeAppsService.html" >MockRuntimeAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockStreamsService.html" >MockStreamsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockTasksService.html" >MockTasksService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockToastyService.html" >MockToastyService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Page.html" >Page</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PageInfo.html" >PageInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PageRequest.html" >PageRequest</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ProgressData.html" >ProgressData</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PropertiesGroupModel.html" >PropertiesGroupModel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PropertyTableItem.html" >PropertyTableItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeApp.html" >RuntimeApp</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeAppInstance.html" >RuntimeAppInstance</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeEnvironment.html" >RuntimeEnvironment</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecution.html" >StepExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionHistory.html" >StepExecutionHistory</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionProgress.html" >StepExecutionProgress</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionResource.html" >StepExecutionResource</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StreamAppMetadata.html" >StreamAppMetadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StreamDefinition.html" >StreamDefinition</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskDefinition.html" >TaskDefinition</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskExecution.html" >TaskExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskLauncher.html" >TaskLauncher</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TextToGraphConverter.html" >TextToGraphConverter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Tokenizer.html" >Tokenizer</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Utils.html" >Utils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ValueHolder.html" >ValueHolder</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/VersionInfo.html" >VersionInfo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="./injectables/AboutService.html" >AboutService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AnalyticsService.html" >AnalyticsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AppsService.html" >AppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AuthGuard.html" >AuthGuard</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AuthService.html" >AuthService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/ContentAssistService.html" >ContentAssistService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/EditorService.html" >EditorService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/JobsService.html" >JobsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/MetamodelService.html" >MetamodelService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/ParserService.html" >ParserService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/RenderService.html" >RenderService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/RuntimeAppsService.html" >RuntimeAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SecurityAwareRequestOptions.html" >SecurityAwareRequestOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SharedAppsService.html" >SharedAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/StreamsService.html" >StreamsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/TasksService.html" >TasksService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="./interfaces/Expandable.html" >Expandable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/RawMetadata.html" >RawMetadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Selectable.html" >Selectable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Serializable.html" >Serializable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Token.html" >Token</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Ugly.html" >Ugly</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-pipes-links"
+                            >
+                            <span class="fa fa-plus"></span>
+                            <span>Pipes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-pipes-links"
+                            >
+                                <li class="link">
+                                    <a href="./pipes/CapitalizePipe.html" >CapitalizePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/DataflowDateTimePipe.html" >DataflowDateTimePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/DataflowDurationPipe.html" >DataflowDurationPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/KeyValuePipe.html" >KeyValuePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/MapValuesPipe.html" >MapValuesPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/SearchfilterPipe.html" >SearchfilterPipe</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html"  class="active" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">Spring Cloud Data Flow Dashboard Documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="./overview.html" 
+                                                href="./overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AboutModule.html" >AboutModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AnalyticsModule.html" >AnalyticsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AnalyticsRoutingModule.html" >AnalyticsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppsModule.html" >AppsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppsRoutingModule.html" >AppsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AuthModule.html" >AuthModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AuthRoutingModule.html" >AuthRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/JobsModule.html" >JobsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/JobsRoutingModule.html" >JobsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/RuntimeAppsModule.html" >RuntimeAppsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/RuntimeAppsRoutingModule.html" >RuntimeAppsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/SharedModule.html" >SharedModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/StreamsModule.html" >StreamsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/StreamsRoutingModule.html" >StreamsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/TasksModule.html" >TasksModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/TasksRoutingModule.html" >TasksRoutingModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AboutDetailsComponent.html" >AboutDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AnalyticsComponent.html" >AnalyticsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppDetailsComponent.html" >AppDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsBulkImportComponent.html" >AppsBulkImportComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsComponent.html" >AppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsRegisterComponent.html" >AppsRegisterComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/DefinitionStatusComponent.html" >DefinitionStatusComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobExecutionDetailsComponent.html" >JobExecutionDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobExecutionStatusComponent.html" >JobExecutionStatusComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobsComponent.html" >JobsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/LoginComponent.html" >LoginComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/LogoutComponent.html" >LogoutComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/PropertiesDialogComponent.html" >PropertiesDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/PropertyTableComponent.html" >PropertyTableComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/RolesMissingComponent.html" >RolesMissingComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/RuntimeAppsComponent.html" >RuntimeAppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StepExecutionDetailsComponent.html" >StepExecutionDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StepExecutionProgressComponent.html" >StepExecutionProgressComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamCreateComponent.html" >StreamCreateComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamCreateDialogComponent.html" >StreamCreateDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDefinitionsComponent.html" >StreamDefinitionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDeployComponent.html" >StreamDeployComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDetailsComponent.html" >StreamDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamsComponent.html" >StreamsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TabComponent.html" >TabComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TabsComponent.html" >TabsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskAppDetailsComponent.html" >TaskAppDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskAppsComponent.html" >TaskAppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskBulkDefineComponent.html" >TaskBulkDefineComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskCreateComponent.html" >TaskCreateComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskCreateComposedTaskComponent.html" >TaskCreateComposedTaskComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskDefinitionsComponent.html" >TaskDefinitionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskExecutionsComponent.html" >TaskExecutionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskExecutionsDetailsComponent.html" >TaskExecutionsDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskLaunchComponent.html" >TaskLaunchComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TasksComponent.html" >TasksComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TriStateButtonComponent.html" >TriStateButtonComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TriStateCheckboxComponent.html" >TriStateCheckboxComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#directives-links"
+                   >
+                                   <span class="fa fa-code"></span>
+                                   <span>Directives</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="directives-links"
+                   >
+                                       <li class="link">
+                                           <a href="./directives/CapsLockDirective.html" >CapsLockDirective</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./directives/ClickOutsideDirective.html" >ClickOutsideDirective</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./directives/RolesDirective.html" >RolesDirective</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./classes/AboutInfo.html" >AboutInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppDeployer.html" >AppDeployer</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppInfo.html" >AppInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppInfoOptions.html" >AppInfoOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppRegistration.html" >AppRegistration</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppRegistrationImport.html" >AppRegistrationImport</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ConfigurationMetadataProperty.html" >ConfigurationMetadataProperty</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Core.html" >Core</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/CountDetails.html" >CountDetails</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Dashboard.html" >Dashboard</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DataflowVersionInfo.html" >DataflowVersionInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DateTimeUtils.html" >DateTimeUtils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DefaultRequestOptions.html" >DefaultRequestOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Deprecation.html" >Deprecation</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DetailedAppRegistration.html" >DetailedAppRegistration</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ErrorHandler.html" >ErrorHandler</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ExecutionContext.html" >ExecutionContext</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/FeatureInfo.html" >FeatureInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/GraphToTextConverter.html" >GraphToTextConverter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/HttpUtils.html" >HttpUtils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Implementation.html" >Implementation</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/InternalParser.html" >InternalParser</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/JobExecution.html" >JobExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/LoginRequest.html" >LoginRequest</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Metadata.html" >Metadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockAboutService.html" >MockAboutService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockActivatedRoute.html" >MockActivatedRoute</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockAuthService.html" >MockAuthService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockComponent.html" >MockComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockJobsService.html" >MockJobsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockMetamodelService.html" >MockMetamodelService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockResponse.html" >MockResponse</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockRuntimeAppsService.html" >MockRuntimeAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockStreamsService.html" >MockStreamsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockTasksService.html" >MockTasksService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockToastyService.html" >MockToastyService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Page.html" >Page</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PageInfo.html" >PageInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PageRequest.html" >PageRequest</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ProgressData.html" >ProgressData</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PropertiesGroupModel.html" >PropertiesGroupModel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PropertyTableItem.html" >PropertyTableItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeApp.html" >RuntimeApp</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeAppInstance.html" >RuntimeAppInstance</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeEnvironment.html" >RuntimeEnvironment</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecution.html" >StepExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionHistory.html" >StepExecutionHistory</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionProgress.html" >StepExecutionProgress</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionResource.html" >StepExecutionResource</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StreamAppMetadata.html" >StreamAppMetadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StreamDefinition.html" >StreamDefinition</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskDefinition.html" >TaskDefinition</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskExecution.html" >TaskExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskLauncher.html" >TaskLauncher</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TextToGraphConverter.html" >TextToGraphConverter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Tokenizer.html" >Tokenizer</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Utils.html" >Utils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ValueHolder.html" >ValueHolder</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/VersionInfo.html" >VersionInfo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="./injectables/AboutService.html" >AboutService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AnalyticsService.html" >AnalyticsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AppsService.html" >AppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AuthGuard.html" >AuthGuard</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AuthService.html" >AuthService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/ContentAssistService.html" >ContentAssistService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/EditorService.html" >EditorService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/JobsService.html" >JobsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/MetamodelService.html" >MetamodelService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/ParserService.html" >ParserService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/RenderService.html" >RenderService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/RuntimeAppsService.html" >RuntimeAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SecurityAwareRequestOptions.html" >SecurityAwareRequestOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SharedAppsService.html" >SharedAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/StreamsService.html" >StreamsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/TasksService.html" >TasksService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="./interfaces/Expandable.html" >Expandable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/RawMetadata.html" >RawMetadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Selectable.html" >Selectable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Serializable.html" >Serializable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Token.html" >Token</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Ugly.html" >Ugly</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#pipes-links"
+                   >
+                                   <span class="fa fa-plus"></span>
+                                   <span>Pipes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="pipes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./pipes/CapitalizePipe.html" >CapitalizePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/DataflowDateTimePipe.html" >DataflowDateTimePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/DataflowDurationPipe.html" >DataflowDurationPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/KeyValuePipe.html" >KeyValuePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/MapValuesPipe.html" >MapValuesPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/SearchfilterPipe.html" >SearchfilterPipe</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html"  class="active" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content coverage">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Documentation coverage</li>
+</ol>
+
+<img src="./images/coverage-badge.svg">
+
+<table class="table table-bordered coverage">
+    <thead class="coverage-header">
+        <tr>
+            <th>File</th>
+            <th>Type</th>
+            <th>Identifier</th>
+            <th style="text-align:right">Statements</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppPage.html">e2e/app.po.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppPage
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AboutDetailsComponent.html">src/app/about/about-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AboutDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AboutInfo.html">src/app/about/about-info.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AboutInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AboutComponent.html">src/app/about/about.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AboutComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/8)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/AboutService.html">src/app/about/about.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                AboutService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AnalyticsComponent.html">src/app/analytics/analytics.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AnalyticsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/AnalyticsService.html">src/app/analytics/analytics.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                AnalyticsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AppComponent.html">src/app/app.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AppComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AppDetailsComponent.html">src/app/apps/app-details/app-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AppDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AppsBulkImportComponent.html">src/app/apps/apps-bulk-import.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AppsBulkImportComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">6 %</span>
+                <span class="coverage-count">(1/16)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/AppsRegisterComponent.html">src/app/apps/apps-register/apps-register.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AppsRegisterComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">15 %</span>
+                <span class="coverage-count">(3/19)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/AppsComponent.html">src/app/apps/apps.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                AppsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">61 %</span>
+                <span class="coverage-count">(13/21)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/AppsService.html">src/app/apps/apps.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                AppsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(2/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppRegistrationImport.html">src/app/apps/model/app-registration-import.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppRegistrationImport
+            </td>
+            <td align="right">
+                <span class="coverage-percent">20 %</span>
+                <span class="coverage-count">(1/5)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./injectables/AuthService.html">src/app/auth/auth.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                AuthService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">30 %</span>
+                <span class="coverage-count">(4/13)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./directives/CapsLockDirective.html">src/app/auth/directives/caps-lock.directive.ts</a>
+            </td>
+            <td>
+                directive
+            </td>
+            <td>
+                CapsLockDirective
+            </td>
+            <td align="right">
+                <span class="coverage-percent">37 %</span>
+                <span class="coverage-count">(3/8)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./directives/RolesDirective.html">src/app/auth/directives/roles.directive.ts</a>
+            </td>
+            <td>
+                directive
+            </td>
+            <td>
+                RolesDirective
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(3/6)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/LoginComponent.html">src/app/auth/login.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                LoginComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">28 %</span>
+                <span class="coverage-count">(2/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/LogoutComponent.html">src/app/auth/logout.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                LogoutComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/LoginRequest.html">src/app/auth/model/login-request.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                LoginRequest
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/SecurityInfo.html">src/app/auth/model/security-info.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                SecurityInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">27 %</span>
+                <span class="coverage-count">(3/11)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/RolesMissingComponent.html">src/app/auth/roles-missing.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                RolesMissingComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(1/1)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./injectables/AuthGuard.html">src/app/auth/support/auth.guard.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                AuthGuard
+            </td>
+            <td align="right">
+                <span class="coverage-percent">66 %</span>
+                <span class="coverage-count">(2/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/DefaultRequestOptions.html">src/app/auth/support/security-aware-request-options.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                DefaultRequestOptions
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/ValueHolder.html">src/app/auth/support/security-aware-request-options.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                ValueHolder
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(1/2)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/SecurityAwareRequestOptions.html">src/app/auth/support/security-aware-request-options.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                SecurityAwareRequestOptions
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/DefinitionStatusComponent.html">src/app/jobs/components/definition-status.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                DefinitionStatusComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">28 %</span>
+                <span class="coverage-count">(2/7)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/JobExecutionStatusComponent.html">src/app/jobs/components/job-execution-status.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                JobExecutionStatusComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">33 %</span>
+                <span class="coverage-count">(2/6)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/JobExecutionDetailsComponent.html">src/app/jobs/job-execution-details/job-execution-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                JobExecutionDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">37 %</span>
+                <span class="coverage-count">(3/8)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/JobsComponent.html">src/app/jobs/jobs.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                JobsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">27 %</span>
+                <span class="coverage-count">(3/11)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./injectables/JobsService.html">src/app/jobs/jobs.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                JobsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">38 %</span>
+                <span class="coverage-count">(5/13)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/ExecutionContext.html">src/app/jobs/model/execution-context.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                ExecutionContext
+            </td>
+            <td align="right">
+                <span class="coverage-percent">20 %</span>
+                <span class="coverage-count">(1/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/JobExecution.html">src/app/jobs/model/job-execution.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                JobExecution
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/19)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/CountDetails.html">src/app/jobs/model/step-execution-progress.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                CountDetails
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/StepExecutionHistory.html">src/app/jobs/model/step-execution-progress.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StepExecutionHistory
+            </td>
+            <td align="right">
+                <span class="coverage-percent">7 %</span>
+                <span class="coverage-count">(1/13)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/StepExecutionProgress.html">src/app/jobs/model/step-execution-progress.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StepExecutionProgress
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/StepExecutionResource.html">src/app/jobs/model/step-execution-resource.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StepExecutionResource
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/StepExecution.html">src/app/jobs/model/step-execution.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StepExecution
+            </td>
+            <td align="right">
+                <span class="coverage-percent">5 %</span>
+                <span class="coverage-count">(1/18)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StepExecutionDetailsComponent.html">src/app/jobs/step-execution-details/step-execution-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StepExecutionDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">8 %</span>
+                <span class="coverage-count">(1/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StepExecutionProgressComponent.html">src/app/jobs/step-execution-progress/step-execution-progress.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StepExecutionProgressComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/RuntimeAppInstance.html">src/app/runtime/model/runtime-app-instance.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                RuntimeAppInstance
+            </td>
+            <td align="right">
+                <span class="coverage-percent">20 %</span>
+                <span class="coverage-count">(1/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/RuntimeApp.html">src/app/runtime/model/runtime-app.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                RuntimeApp
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/RuntimeAppsComponent.html">src/app/runtime/runtime-apps.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                RuntimeAppsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">7 %</span>
+                <span class="coverage-count">(1/13)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./injectables/RuntimeAppsService.html">src/app/runtime/runtime-apps.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                RuntimeAppsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">40 %</span>
+                <span class="coverage-count">(2/5)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/PropertyTableComponent.html">src/app/shared/components/property-table/property-table.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                PropertyTableComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">88 %</span>
+                <span class="coverage-count">(22/25)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/PropertyTableItem.html">src/app/shared/components/property-table/property-table.component.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                PropertyTableItem
+            </td>
+            <td align="right">
+                <span class="coverage-percent">20 %</span>
+                <span class="coverage-count">(1/5)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/TabComponent.html">src/app/shared/components/tabs.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TabComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(3/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TabsComponent.html">src/app/shared/components/tabs.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TabsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/TriStateButtonComponent.html">src/app/shared/components/tri-state-button.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TriStateButtonComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">88 %</span>
+                <span class="coverage-count">(15/17)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/TriStateCheckboxComponent.html">src/app/shared/components/tri-state-checkbox.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TriStateCheckboxComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">83 %</span>
+                <span class="coverage-count">(10/12)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./directives/ClickOutsideDirective.html">src/app/shared/directives/click-outside.directive.ts</a>
+            </td>
+            <td>
+                directive
+            </td>
+            <td>
+                ClickOutsideDirective
+            </td>
+            <td align="right">
+                <span class="coverage-percent">75 %</span>
+                <span class="coverage-count">(3/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppRegistration.html">src/app/shared/model/app-registration.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppRegistration
+            </td>
+            <td align="right">
+                <span class="coverage-percent">22 %</span>
+                <span class="coverage-count">(2/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/ConfigurationMetadataProperty.html">src/app/shared/model/detailed-app-registration.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                ConfigurationMetadataProperty
+            </td>
+            <td align="right">
+                <span class="coverage-percent">20 %</span>
+                <span class="coverage-count">(2/10)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/Deprecation.html">src/app/shared/model/detailed-app-registration.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Deprecation
+            </td>
+            <td align="right">
+                <span class="coverage-percent">40 %</span>
+                <span class="coverage-count">(2/5)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/DetailedAppRegistration.html">src/app/shared/model/detailed-app-registration.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                DetailedAppRegistration
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(2/4)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/ErrorHandler.html">src/app/shared/model/error-handler.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                ErrorHandler
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(1/2)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./interfaces/Expandable.html">src/app/shared/model/expandable.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                Expandable
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(1/2)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/Page.html">src/app/shared/model/page.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Page
+            </td>
+            <td align="right">
+                <span class="coverage-percent">27 %</span>
+                <span class="coverage-count">(3/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/PageInfo.html">src/app/shared/model/pageInfo.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                PageInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/PageRequest.html">src/app/shared/model/pagination/page-request.model.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                PageRequest
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/4)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./interfaces/Selectable.html">src/app/shared/model/selectable.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                Selectable
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(1/2)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./interfaces/Serializable.html">src/app/shared/model/serialization/serializable.model.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                Serializable
+            </td>
+            <td align="right">
+                <span class="coverage-percent">50 %</span>
+                <span class="coverage-count">(1/2)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./pipes/CapitalizePipe.html">src/app/shared/pipes/capitalize.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                CapitalizePipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(1/1)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./pipes/DataflowDateTimePipe.html">src/app/shared/pipes/dataflow-date-time.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                DataflowDateTimePipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(1/1)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./pipes/DataflowDurationPipe.html">src/app/shared/pipes/dataflow-duration.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                DataflowDurationPipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(1/1)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./pipes/KeyValuePipe.html">src/app/shared/pipes/key-value-filter.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                KeyValuePipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/1)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./pipes/MapValuesPipe.html">src/app/shared/pipes/map-values-pipe.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                MapValuesPipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(1/1)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./pipes/SearchfilterPipe.html">src/app/shared/pipes/search-filter.pipe.ts</a>
+            </td>
+            <td>
+                pipe
+            </td>
+            <td>
+                SearchfilterPipe
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/1)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/ParserService.html">src/app/shared/services/parser.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                ParserService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/InternalParser.html">src/app/shared/services/parser.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                InternalParser
+            </td>
+            <td align="right">
+                <span class="coverage-percent">8 %</span>
+                <span class="coverage-count">(3/36)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./interfaces/Ugly.html">src/app/shared/services/parser.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                Ugly
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/10)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/SharedAppsService.html">src/app/shared/services/shared-apps.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                SharedAppsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/Tokenizer.html">src/app/shared/services/tokenizer.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Tokenizer
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(6/24)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./interfaces/Token.html">src/app/shared/services/tokenizer.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                Token
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/5)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./classes/DateTimeUtils.html">src/app/shared/support/date-time.utils.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                DateTimeUtils
+            </td>
+            <td align="right">
+                <span class="coverage-percent">100 %</span>
+                <span class="coverage-count">(2/2)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/HttpUtils.html">src/app/shared/support/http.utils.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                HttpUtils
+            </td>
+            <td align="right">
+                <span class="coverage-percent">33 %</span>
+                <span class="coverage-count">(1/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/ContentAssistService.html">src/app/streams/flo/content-assist.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                ContentAssistService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/EditorService.html">src/app/streams/flo/editor.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                EditorService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">8 %</span>
+                <span class="coverage-count">(2/24)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/GraphToTextConverter.html">src/app/streams/flo/graph-to-text.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                GraphToTextConverter
+            </td>
+            <td align="right">
+                <span class="coverage-percent">13 %</span>
+                <span class="coverage-count">(4/29)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/StreamAppMetadata.html">src/app/streams/flo/metamodel.service.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StreamAppMetadata
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/MetamodelService.html">src/app/streams/flo/metamodel.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                MetamodelService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">11 %</span>
+                <span class="coverage-count">(2/18)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/Metadata.html">src/app/streams/flo/mocks/mock-metamodel.service.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Metadata
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockMetamodelService.html">src/app/streams/flo/mocks/mock-metamodel.service.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockMetamodelService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./interfaces/RawMetadata.html">src/app/streams/flo/mocks/mock-metamodel.service.ts</a>
+            </td>
+            <td>
+                interface
+            </td>
+            <td>
+                RawMetadata
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/PropertiesDialogComponent.html">src/app/streams/flo/properties/properties-dialog.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                PropertiesDialogComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/PropertiesGroupModel.html">src/app/streams/flo/properties/properties-dialog.component.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                PropertiesGroupModel
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/RenderService.html">src/app/streams/flo/render.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                RenderService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">4 %</span>
+                <span class="coverage-count">(1/21)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/TextToGraphConverter.html">src/app/streams/flo/text-to-graph.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                TextToGraphConverter
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(2/8)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/Utils.html">src/app/streams/flo/utils.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Utils
+            </td>
+            <td align="right">
+                <span class="coverage-percent">33 %</span>
+                <span class="coverage-count">(1/3)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/StreamDefinition.html">src/app/streams/model/stream-definition.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                StreamDefinition
+            </td>
+            <td align="right">
+                <span class="coverage-percent">28 %</span>
+                <span class="coverage-count">(2/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StreamCreateDialogComponent.html">src/app/streams/stream-create/stream-create-dialog.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamCreateDialogComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">4 %</span>
+                <span class="coverage-count">(1/23)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/ProgressData.html">src/app/streams/stream-create/stream-create-dialog.component.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                ProgressData
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StreamCreateComponent.html">src/app/streams/stream-create/stream-create.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamCreateComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">5 %</span>
+                <span class="coverage-count">(1/17)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./components/StreamDefinitionsComponent.html">src/app/streams/stream-definitions/stream-definitions.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamDefinitionsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">61 %</span>
+                <span class="coverage-count">(16/26)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./components/StreamDeployComponent.html">src/app/streams/stream-deploy/stream-deploy.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamDeployComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">45 %</span>
+                <span class="coverage-count">(5/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StreamDetailsComponent.html">src/app/streams/stream-details/stream-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/StreamsComponent.html">src/app/streams/streams.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                StreamsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/4)</span>
+            </td>
+        </tr>
+        <tr class="good">
+            <td>
+                <a href="./injectables/StreamsService.html">src/app/streams/streams.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                StreamsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">63 %</span>
+                <span class="coverage-count">(7/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppInfo.html">src/app/tasks/model/app-info.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppInfoOptions.html">src/app/tasks/model/app-info.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppInfoOptions
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/8)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/TaskDefinition.html">src/app/tasks/model/task-definition.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                TaskDefinition
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/TaskExecution.html">src/app/tasks/model/task-execution.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                TaskExecution
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskAppDetailsComponent.html">src/app/tasks/task-app-details/task-app-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskAppDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskAppsComponent.html">src/app/tasks/task-apps/task-apps.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskAppsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">11 %</span>
+                <span class="coverage-count">(1/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskBulkDefineComponent.html">src/app/tasks/task-bulk-define/task-bulk-define.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskBulkDefineComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">12 %</span>
+                <span class="coverage-count">(1/8)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskCreateComposedTaskComponent.html">src/app/tasks/task-create-composed-task/task-create-composed-task.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskCreateComposedTaskComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskCreateComponent.html">src/app/tasks/task-create/task-create.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskCreateComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/16)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskDefinitionsComponent.html">src/app/tasks/task-definitions/task-definitions.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskDefinitionsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">19 %</span>
+                <span class="coverage-count">(4/21)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskExecutionsDetailsComponent.html">src/app/tasks/task-details/task-details.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskExecutionsDetailsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskExecutionsComponent.html">src/app/tasks/task-executions/task-executions.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskExecutionsComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/19)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TaskLaunchComponent.html">src/app/tasks/task-launch/task-launch.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TaskLaunchComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./components/TasksComponent.html">src/app/tasks/tasks.component.ts</a>
+            </td>
+            <td>
+                component
+            </td>
+            <td>
+                TasksComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./injectables/TasksService.html">src/app/tasks/tasks.service.ts</a>
+            </td>
+            <td>
+                injectable
+            </td>
+            <td>
+                TasksService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">10 %</span>
+                <span class="coverage-count">(2/20)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/AppDeployer.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                AppDeployer
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/Core.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Core
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/Dashboard.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Dashboard
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/DataflowVersionInfo.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                DataflowVersionInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/5)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/FeatureInfo.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                FeatureInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/Implementation.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                Implementation
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockAboutService.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockAboutService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/9)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/RuntimeEnvironment.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                RuntimeEnvironment
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/SecurityInfo.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                SecurityInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/TaskLauncher.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                TaskLauncher
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/12)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/VersionInfo.html">src/app/tests/mocks/about.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                VersionInfo
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockActivatedRoute.html">src/app/tests/mocks/activated-route.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockActivatedRoute
+            </td>
+            <td align="right">
+                <span class="coverage-percent">16 %</span>
+                <span class="coverage-count">(1/6)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockAuthService.html">src/app/tests/mocks/auth.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockAuthService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockJobsService.html">src/app/tests/mocks/jobs.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockJobsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">0 %</span>
+                <span class="coverage-count">(0/11)</span>
+            </td>
+        </tr>
+        <tr class="medium">
+            <td>
+                <a href="./classes/MockComponent.html">src/app/tests/mocks/mock-component.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockComponent
+            </td>
+            <td align="right">
+                <span class="coverage-percent">33 %</span>
+                <span class="coverage-count">(1/3)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockResponse.html">src/app/tests/mocks/response.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockResponse
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockRuntimeAppsService.html">src/app/tests/mocks/runtime.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockRuntimeAppsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">25 %</span>
+                <span class="coverage-count">(1/4)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockStreamsService.html">src/app/tests/mocks/streams.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockStreamsService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">14 %</span>
+                <span class="coverage-count">(1/7)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockTasksService.html">src/app/tests/mocks/tasks.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockTasksService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">9 %</span>
+                <span class="coverage-count">(1/11)</span>
+            </td>
+        </tr>
+        <tr class="low">
+            <td>
+                <a href="./classes/MockToastyService.html">src/app/tests/mocks/toasty.ts</a>
+            </td>
+            <td>
+                class
+            </td>
+            <td>
+                MockToastyService
+            </td>
+            <td align="right">
+                <span class="coverage-percent">11 %</span>
+                <span class="coverage-count">(1/9)</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>

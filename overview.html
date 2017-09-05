@@ -1,0 +1,2822 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Spring Cloud Data Flow Dashboard Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">Spring Cloud Data Flow Dashboard Documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">Spring Cloud Data Flow Dashboard Documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                         href="./overview.html" 
+                                        
+                                         href="./overview.html" 
+                                         class="active" >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AboutModule.html" >AboutModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AnalyticsModule.html" >AnalyticsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AnalyticsRoutingModule.html" >AnalyticsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppsModule.html" >AppsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppsRoutingModule.html" >AppsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AuthModule.html" >AuthModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AuthRoutingModule.html" >AuthRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/JobsModule.html" >JobsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/JobsRoutingModule.html" >JobsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/RuntimeAppsModule.html" >RuntimeAppsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/RuntimeAppsRoutingModule.html" >RuntimeAppsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/SharedModule.html" >SharedModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/StreamsModule.html" >StreamsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/StreamsRoutingModule.html" >StreamsRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/TasksModule.html" >TasksModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/TasksRoutingModule.html" >TasksRoutingModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AboutDetailsComponent.html" >AboutDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AnalyticsComponent.html" >AnalyticsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppDetailsComponent.html" >AppDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsBulkImportComponent.html" >AppsBulkImportComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsComponent.html" >AppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppsRegisterComponent.html" >AppsRegisterComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/DefinitionStatusComponent.html" >DefinitionStatusComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobExecutionDetailsComponent.html" >JobExecutionDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobExecutionStatusComponent.html" >JobExecutionStatusComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/JobsComponent.html" >JobsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/LoginComponent.html" >LoginComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/LogoutComponent.html" >LogoutComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/PropertiesDialogComponent.html" >PropertiesDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/PropertyTableComponent.html" >PropertyTableComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/RolesMissingComponent.html" >RolesMissingComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/RuntimeAppsComponent.html" >RuntimeAppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StepExecutionDetailsComponent.html" >StepExecutionDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StepExecutionProgressComponent.html" >StepExecutionProgressComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamCreateComponent.html" >StreamCreateComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamCreateDialogComponent.html" >StreamCreateDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDefinitionsComponent.html" >StreamDefinitionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDeployComponent.html" >StreamDeployComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamDetailsComponent.html" >StreamDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/StreamsComponent.html" >StreamsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TabComponent.html" >TabComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TabsComponent.html" >TabsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskAppDetailsComponent.html" >TaskAppDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskAppsComponent.html" >TaskAppsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskBulkDefineComponent.html" >TaskBulkDefineComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskCreateComponent.html" >TaskCreateComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskCreateComposedTaskComponent.html" >TaskCreateComposedTaskComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskDefinitionsComponent.html" >TaskDefinitionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskExecutionsComponent.html" >TaskExecutionsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskExecutionsDetailsComponent.html" >TaskExecutionsDetailsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TaskLaunchComponent.html" >TaskLaunchComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TasksComponent.html" >TasksComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TriStateButtonComponent.html" >TriStateButtonComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TriStateCheckboxComponent.html" >TriStateCheckboxComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-directives-links"
+                            >
+                            <span class="fa fa-code"></span>
+                            <span>Directives</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-directives-links"
+                            >
+                                <li class="link">
+                                    <a href="./directives/CapsLockDirective.html" >CapsLockDirective</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./directives/ClickOutsideDirective.html" >ClickOutsideDirective</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./directives/RolesDirective.html" >RolesDirective</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="./classes/AboutInfo.html" >AboutInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppDeployer.html" >AppDeployer</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppInfo.html" >AppInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppInfoOptions.html" >AppInfoOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppRegistration.html" >AppRegistration</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/AppRegistrationImport.html" >AppRegistrationImport</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ConfigurationMetadataProperty.html" >ConfigurationMetadataProperty</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Core.html" >Core</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/CountDetails.html" >CountDetails</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Dashboard.html" >Dashboard</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DataflowVersionInfo.html" >DataflowVersionInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DateTimeUtils.html" >DateTimeUtils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DefaultRequestOptions.html" >DefaultRequestOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Deprecation.html" >Deprecation</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/DetailedAppRegistration.html" >DetailedAppRegistration</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ErrorHandler.html" >ErrorHandler</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ExecutionContext.html" >ExecutionContext</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/FeatureInfo.html" >FeatureInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/GraphToTextConverter.html" >GraphToTextConverter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/HttpUtils.html" >HttpUtils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Implementation.html" >Implementation</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/InternalParser.html" >InternalParser</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/JobExecution.html" >JobExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/LoginRequest.html" >LoginRequest</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Metadata.html" >Metadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockAboutService.html" >MockAboutService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockActivatedRoute.html" >MockActivatedRoute</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockAuthService.html" >MockAuthService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockComponent.html" >MockComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockJobsService.html" >MockJobsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockMetamodelService.html" >MockMetamodelService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockResponse.html" >MockResponse</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockRuntimeAppsService.html" >MockRuntimeAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockStreamsService.html" >MockStreamsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockTasksService.html" >MockTasksService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MockToastyService.html" >MockToastyService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Page.html" >Page</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PageInfo.html" >PageInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PageRequest.html" >PageRequest</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ProgressData.html" >ProgressData</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PropertiesGroupModel.html" >PropertiesGroupModel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/PropertyTableItem.html" >PropertyTableItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeApp.html" >RuntimeApp</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeAppInstance.html" >RuntimeAppInstance</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/RuntimeEnvironment.html" >RuntimeEnvironment</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecution.html" >StepExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionHistory.html" >StepExecutionHistory</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionProgress.html" >StepExecutionProgress</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StepExecutionResource.html" >StepExecutionResource</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StreamAppMetadata.html" >StreamAppMetadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/StreamDefinition.html" >StreamDefinition</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskDefinition.html" >TaskDefinition</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskExecution.html" >TaskExecution</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TaskLauncher.html" >TaskLauncher</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/TextToGraphConverter.html" >TextToGraphConverter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Tokenizer.html" >Tokenizer</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Utils.html" >Utils</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/ValueHolder.html" >ValueHolder</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/VersionInfo.html" >VersionInfo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="./injectables/AboutService.html" >AboutService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AnalyticsService.html" >AnalyticsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AppsService.html" >AppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AuthGuard.html" >AuthGuard</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/AuthService.html" >AuthService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/ContentAssistService.html" >ContentAssistService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/EditorService.html" >EditorService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/JobsService.html" >JobsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/MetamodelService.html" >MetamodelService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/ParserService.html" >ParserService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/RenderService.html" >RenderService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/RuntimeAppsService.html" >RuntimeAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SecurityAwareRequestOptions.html" >SecurityAwareRequestOptions</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/SharedAppsService.html" >SharedAppsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/StreamsService.html" >StreamsService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/TasksService.html" >TasksService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="./interfaces/Expandable.html" >Expandable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/RawMetadata.html" >RawMetadata</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Selectable.html" >Selectable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Serializable.html" >Serializable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Token.html" >Token</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/Ugly.html" >Ugly</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-pipes-links"
+                            >
+                            <span class="fa fa-plus"></span>
+                            <span>Pipes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-pipes-links"
+                            >
+                                <li class="link">
+                                    <a href="./pipes/CapitalizePipe.html" >CapitalizePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/DataflowDateTimePipe.html" >DataflowDateTimePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/DataflowDurationPipe.html" >DataflowDurationPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/KeyValuePipe.html" >KeyValuePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/MapValuesPipe.html" >MapValuesPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./pipes/SearchfilterPipe.html" >SearchfilterPipe</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">Spring Cloud Data Flow Dashboard Documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                                href="./overview.html" 
+                                               
+                                                href="./overview.html" 
+                                                class="active" >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AboutModule.html" >AboutModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AnalyticsModule.html" >AnalyticsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AnalyticsRoutingModule.html" >AnalyticsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppsModule.html" >AppsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppsRoutingModule.html" >AppsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AuthModule.html" >AuthModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AuthRoutingModule.html" >AuthRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/JobsModule.html" >JobsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/JobsRoutingModule.html" >JobsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/RuntimeAppsModule.html" >RuntimeAppsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/RuntimeAppsRoutingModule.html" >RuntimeAppsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/SharedModule.html" >SharedModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/StreamsModule.html" >StreamsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/StreamsRoutingModule.html" >StreamsRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/TasksModule.html" >TasksModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/TasksRoutingModule.html" >TasksRoutingModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AboutDetailsComponent.html" >AboutDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AnalyticsComponent.html" >AnalyticsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppDetailsComponent.html" >AppDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsBulkImportComponent.html" >AppsBulkImportComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsComponent.html" >AppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppsRegisterComponent.html" >AppsRegisterComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/DefinitionStatusComponent.html" >DefinitionStatusComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobExecutionDetailsComponent.html" >JobExecutionDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobExecutionStatusComponent.html" >JobExecutionStatusComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/JobsComponent.html" >JobsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/LoginComponent.html" >LoginComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/LogoutComponent.html" >LogoutComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/PropertiesDialogComponent.html" >PropertiesDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/PropertyTableComponent.html" >PropertyTableComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/RolesMissingComponent.html" >RolesMissingComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/RuntimeAppsComponent.html" >RuntimeAppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StepExecutionDetailsComponent.html" >StepExecutionDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StepExecutionProgressComponent.html" >StepExecutionProgressComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamCreateComponent.html" >StreamCreateComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamCreateDialogComponent.html" >StreamCreateDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDefinitionsComponent.html" >StreamDefinitionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDeployComponent.html" >StreamDeployComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamDetailsComponent.html" >StreamDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/StreamsComponent.html" >StreamsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TabComponent.html" >TabComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TabsComponent.html" >TabsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskAppDetailsComponent.html" >TaskAppDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskAppsComponent.html" >TaskAppsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskBulkDefineComponent.html" >TaskBulkDefineComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskCreateComponent.html" >TaskCreateComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskCreateComposedTaskComponent.html" >TaskCreateComposedTaskComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskDefinitionsComponent.html" >TaskDefinitionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskExecutionsComponent.html" >TaskExecutionsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskExecutionsDetailsComponent.html" >TaskExecutionsDetailsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TaskLaunchComponent.html" >TaskLaunchComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TasksComponent.html" >TasksComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TriStateButtonComponent.html" >TriStateButtonComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TriStateCheckboxComponent.html" >TriStateCheckboxComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#directives-links"
+                   >
+                                   <span class="fa fa-code"></span>
+                                   <span>Directives</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="directives-links"
+                   >
+                                       <li class="link">
+                                           <a href="./directives/CapsLockDirective.html" >CapsLockDirective</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./directives/ClickOutsideDirective.html" >ClickOutsideDirective</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./directives/RolesDirective.html" >RolesDirective</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./classes/AboutInfo.html" >AboutInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppDeployer.html" >AppDeployer</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppInfo.html" >AppInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppInfoOptions.html" >AppInfoOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppRegistration.html" >AppRegistration</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/AppRegistrationImport.html" >AppRegistrationImport</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ConfigurationMetadataProperty.html" >ConfigurationMetadataProperty</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Core.html" >Core</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/CountDetails.html" >CountDetails</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Dashboard.html" >Dashboard</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DataflowVersionInfo.html" >DataflowVersionInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DateTimeUtils.html" >DateTimeUtils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DefaultRequestOptions.html" >DefaultRequestOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Deprecation.html" >Deprecation</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/DetailedAppRegistration.html" >DetailedAppRegistration</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ErrorHandler.html" >ErrorHandler</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ExecutionContext.html" >ExecutionContext</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/FeatureInfo.html" >FeatureInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/GraphToTextConverter.html" >GraphToTextConverter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/HttpUtils.html" >HttpUtils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Implementation.html" >Implementation</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/InternalParser.html" >InternalParser</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/JobExecution.html" >JobExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/LoginRequest.html" >LoginRequest</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Metadata.html" >Metadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockAboutService.html" >MockAboutService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockActivatedRoute.html" >MockActivatedRoute</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockAuthService.html" >MockAuthService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockComponent.html" >MockComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockJobsService.html" >MockJobsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockMetamodelService.html" >MockMetamodelService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockResponse.html" >MockResponse</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockRuntimeAppsService.html" >MockRuntimeAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockStreamsService.html" >MockStreamsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockTasksService.html" >MockTasksService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MockToastyService.html" >MockToastyService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Page.html" >Page</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PageInfo.html" >PageInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PageRequest.html" >PageRequest</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ProgressData.html" >ProgressData</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PropertiesGroupModel.html" >PropertiesGroupModel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/PropertyTableItem.html" >PropertyTableItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeApp.html" >RuntimeApp</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeAppInstance.html" >RuntimeAppInstance</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/RuntimeEnvironment.html" >RuntimeEnvironment</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/SecurityInfo.html" >SecurityInfo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecution.html" >StepExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionHistory.html" >StepExecutionHistory</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionProgress.html" >StepExecutionProgress</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StepExecutionResource.html" >StepExecutionResource</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StreamAppMetadata.html" >StreamAppMetadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/StreamDefinition.html" >StreamDefinition</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskDefinition.html" >TaskDefinition</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskExecution.html" >TaskExecution</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TaskLauncher.html" >TaskLauncher</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/TextToGraphConverter.html" >TextToGraphConverter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Tokenizer.html" >Tokenizer</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Utils.html" >Utils</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/ValueHolder.html" >ValueHolder</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/VersionInfo.html" >VersionInfo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="./injectables/AboutService.html" >AboutService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AnalyticsService.html" >AnalyticsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AppsService.html" >AppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AuthGuard.html" >AuthGuard</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/AuthService.html" >AuthService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/ContentAssistService.html" >ContentAssistService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/EditorService.html" >EditorService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/JobsService.html" >JobsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/MetamodelService.html" >MetamodelService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/ParserService.html" >ParserService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/RenderService.html" >RenderService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/RuntimeAppsService.html" >RuntimeAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SecurityAwareRequestOptions.html" >SecurityAwareRequestOptions</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/SharedAppsService.html" >SharedAppsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/StreamsService.html" >StreamsService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/TasksService.html" >TasksService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="./interfaces/Expandable.html" >Expandable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/RawMetadata.html" >RawMetadata</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Selectable.html" >Selectable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Serializable.html" >Serializable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Token.html" >Token</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/Ugly.html" >Ugly</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#pipes-links"
+                   >
+                                   <span class="fa fa-plus"></span>
+                                   <span>Pipes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="pipes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./pipes/CapitalizePipe.html" >CapitalizePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/DataflowDateTimePipe.html" >DataflowDateTimePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/DataflowDurationPipe.html" >DataflowDurationPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/KeyValuePipe.html" >KeyValuePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/MapValuesPipe.html" >MapValuesPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./pipes/SearchfilterPipe.html" >SearchfilterPipe</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content overview">
+                   <div class="content-data">
+
+
+<h3>Overview</h3>
+            <div class="text-center">
+                <div id="module-graph-svg">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="9263pt" height="504pt"
+ viewBox="0.00 0.00 9263.00 504.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 500)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-500 9259,-500 9259,4 -4,4"/>
+<text text-anchor="start" x="4606.5091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="4393.5,-10 4393.5,-30 4413.5,-30 4413.5,-10 4393.5,-10"/>
+<text text-anchor="start" x="4417.129" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="4506.5,-10 4506.5,-30 4526.5,-30 4526.5,-10 4506.5,-10"/>
+<text text-anchor="start" x="4530.2251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="4592.5,-10 4592.5,-30 4612.5,-30 4612.5,-10 4592.5,-10"/>
+<text text-anchor="start" x="4616.2812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="4689.5,-10 4689.5,-30 4709.5,-30 4709.5,-10 4689.5,-10"/>
+<text text-anchor="start" x="4713.1732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="4785.5,-10 4785.5,-30 4805.5,-30 4805.5,-10 4785.5,-10"/>
+<text text-anchor="start" x="4809.2258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AboutModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="7383,-146 7383,-282 8137,-282 8137,-146 7383,-146"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_AboutModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="7823,-154 7823,-206 8129,-206 8129,-154 7823,-154"/>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_AboutModule_imports</title>
+<polygon fill="none" stroke="#000000" points="7391,-154 7391,-206 7663,-206 7663,-154 7391,-154"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_AboutModule_providers</title>
+<polygon fill="none" stroke="#000000" points="7671,-154 7671,-206 7815,-206 7815,-154 7671,-154"/>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_AnalyticsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8145,-146 8145,-282 8671,-282 8671,-146 8145,-146"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_AnalyticsModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="8513,-154 8513,-206 8663,-206 8663,-154 8513,-154"/>
+</g>
+<g id="clust18" class="cluster">
+<title>cluster_AnalyticsModule_imports</title>
+<polygon fill="none" stroke="#000000" points="8331,-154 8331,-206 8505,-206 8505,-154 8331,-154"/>
+</g>
+<g id="clust21" class="cluster">
+<title>cluster_AnalyticsModule_providers</title>
+<polygon fill="none" stroke="#000000" points="8153,-154 8153,-206 8323,-206 8323,-154 8153,-154"/>
+</g>
+<g id="clust28" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1201,-222 1201,-488 1855,-488 1855,-222 1201,-222"/>
+</g>
+<g id="clust29" class="cluster">
+<title>cluster_AppModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1725,-298 1725,-350 1847,-350 1847,-298 1725,-298"/>
+</g>
+<g id="clust31" class="cluster">
+<title>cluster_AppModule_imports</title>
+<polygon fill="none" stroke="#000000" points="1209,-230 1209,-350 1717,-350 1717,-230 1209,-230"/>
+</g>
+<g id="clust33" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="1485,-428 1485,-480 1609,-480 1609,-428 1485,-428"/>
+</g>
+<g id="clust41" class="cluster">
+<title>cluster_AppsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1863,-222 1863,-290 2841,-290 2841,-222 1863,-222"/>
+</g>
+<g id="clust42" class="cluster">
+<title>cluster_AppsModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="2173,-230 2173,-282 2833,-282 2833,-230 2173,-230"/>
+</g>
+<g id="clust47" class="cluster">
+<title>cluster_AppsModule_imports</title>
+<polygon fill="none" stroke="#000000" points="2015,-230 2015,-282 2165,-282 2165,-230 2015,-230"/>
+</g>
+<g id="clust50" class="cluster">
+<title>cluster_AppsModule_providers</title>
+<polygon fill="none" stroke="#000000" points="1871,-230 1871,-282 2007,-282 2007,-230 1871,-230"/>
+</g>
+<g id="clust57" class="cluster">
+<title>cluster_AuthModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-146 8,-214 1430,-214 1430,-146 8,-146"/>
+</g>
+<g id="clust58" class="cluster">
+<title>cluster_AuthModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="715,-154 715,-206 1422,-206 1422,-154 715,-154"/>
+</g>
+<g id="clust64" class="cluster">
+<title>cluster_AuthModule_imports</title>
+<polygon fill="none" stroke="#000000" points="559,-154 559,-206 707,-206 707,-154 559,-154"/>
+</g>
+<g id="clust65" class="cluster">
+<title>cluster_AuthModule_exports</title>
+<polygon fill="none" stroke="#000000" points="285,-154 285,-206 551,-206 551,-154 285,-154"/>
+</g>
+<g id="clust67" class="cluster">
+<title>cluster_AuthModule_providers</title>
+<polygon fill="none" stroke="#000000" points="16,-154 16,-206 277,-206 277,-154 16,-154"/>
+</g>
+<g id="clust74" class="cluster">
+<title>cluster_JobsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1438,-146 1438,-214 2934,-214 2934,-146 1438,-146"/>
+</g>
+<g id="clust75" class="cluster">
+<title>cluster_JobsModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1738,-154 1738,-206 2926,-206 2926,-154 1738,-154"/>
+</g>
+<g id="clust82" class="cluster">
+<title>cluster_JobsModule_imports</title>
+<polygon fill="none" stroke="#000000" points="1584,-154 1584,-206 1730,-206 1730,-154 1584,-154"/>
+</g>
+<g id="clust85" class="cluster">
+<title>cluster_JobsModule_providers</title>
+<polygon fill="none" stroke="#000000" points="1446,-154 1446,-206 1576,-206 1576,-154 1446,-154"/>
+</g>
+<g id="clust92" class="cluster">
+<title>cluster_RuntimeAppsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="2942,-146 2942,-214 3552,-214 3552,-146 2942,-146"/>
+</g>
+<g id="clust93" class="cluster">
+<title>cluster_RuntimeAppsModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="3368,-154 3368,-206 3544,-206 3544,-154 3368,-154"/>
+</g>
+<g id="clust95" class="cluster">
+<title>cluster_RuntimeAppsModule_imports</title>
+<polygon fill="none" stroke="#000000" points="3162,-154 3162,-206 3360,-206 3360,-154 3162,-154"/>
+</g>
+<g id="clust98" class="cluster">
+<title>cluster_RuntimeAppsModule_providers</title>
+<polygon fill="none" stroke="#000000" points="2950,-154 2950,-206 3154,-206 3154,-154 2950,-154"/>
+</g>
+<g id="clust105" class="cluster">
+<title>cluster_SharedModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="5541,-70 5541,-138 9247,-138 9247,-70 5541,-70"/>
+</g>
+<g id="clust106" class="cluster">
+<title>cluster_SharedModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="7462,-78 7462,-130 9239,-130 9239,-78 7462,-78"/>
+</g>
+<g id="clust120" class="cluster">
+<title>cluster_SharedModule_exports</title>
+<polygon fill="none" stroke="#000000" points="5893,-78 5893,-130 7454,-130 7454,-78 5893,-78"/>
+</g>
+<g id="clust122" class="cluster">
+<title>cluster_SharedModule_providers</title>
+<polygon fill="none" stroke="#000000" points="5549,-78 5549,-130 5885,-130 5885,-78 5549,-78"/>
+</g>
+<g id="clust123" class="cluster">
+<title>cluster_StreamsModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="2849,-222 2849,-290 5183,-290 5183,-222 2849,-222"/>
+</g>
+<g id="clust124" class="cluster">
+<title>cluster_StreamsModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="3889,-230 3889,-282 5175,-282 5175,-230 3889,-230"/>
+</g>
+<g id="clust132" class="cluster">
+<title>cluster_StreamsModule_imports</title>
+<polygon fill="none" stroke="#000000" points="3715,-230 3715,-282 3881,-282 3881,-230 3715,-230"/>
+</g>
+<g id="clust135" class="cluster">
+<title>cluster_StreamsModule_providers</title>
+<polygon fill="none" stroke="#000000" points="2857,-230 2857,-282 3707,-282 3707,-230 2857,-230"/>
+</g>
+<g id="clust142" class="cluster">
+<title>cluster_TasksModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="5191,-222 5191,-290 7375,-290 7375,-222 5191,-222"/>
+</g>
+<g id="clust143" class="cluster">
+<title>cluster_TasksModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="5511,-230 5511,-282 7367,-282 7367,-230 5511,-230"/>
+</g>
+<g id="clust154" class="cluster">
+<title>cluster_TasksModule_imports</title>
+<polygon fill="none" stroke="#000000" points="5349,-230 5349,-282 5503,-282 5503,-230 5349,-230"/>
+</g>
+<g id="clust157" class="cluster">
+<title>cluster_TasksModule_providers</title>
+<polygon fill="none" stroke="#000000" points="5199,-230 5199,-282 5341,-282 5341,-230 5199,-230"/>
+</g>
+<!-- AboutComponent -->
+<g id="node1" class="node">
+<title>AboutComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8121.3301,-198 8004.6699,-198 8004.6699,-162 8121.3301,-162 8121.3301,-198"/>
+<text text-anchor="middle" x="8063" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutComponent</text>
+</g>
+<!-- AboutModule -->
+<g id="node3" class="node">
+<title>AboutModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="7563.0481,-274 7560.0481,-278 7539.0481,-278 7536.0481,-274 7468.9519,-274 7468.9519,-238 7563.0481,-238 7563.0481,-274"/>
+<text text-anchor="middle" x="7516" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutModule</text>
+</g>
+<!-- AboutComponent&#45;&gt;AboutModule -->
+<g id="edge1" class="edge">
+<title>AboutComponent&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M8063,-198.0263C8063,-222.9773 8063,-265 8063,-265 8063,-265 7573.1103,-265 7573.1103,-265"/>
+<polygon fill="#000000" stroke="#000000" points="7573.1104,-261.5001 7563.1103,-265 7573.1103,-268.5001 7573.1104,-261.5001"/>
+</g>
+<!-- AboutDetailsComponent -->
+<g id="node2" class="node">
+<title>AboutDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7986.9818,-198 7831.0182,-198 7831.0182,-162 7986.9818,-162 7986.9818,-198"/>
+<text text-anchor="middle" x="7909" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutDetailsComponent</text>
+</g>
+<!-- AboutDetailsComponent&#45;&gt;AboutModule -->
+<g id="edge2" class="edge">
+<title>AboutDetailsComponent&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M7909,-198.0109C7909,-220.4852 7909,-256 7909,-256 7909,-256 7573.405,-256 7573.405,-256"/>
+<polygon fill="#000000" stroke="#000000" points="7573.405,-252.5001 7563.405,-256 7573.4049,-259.5001 7573.405,-252.5001"/>
+</g>
+<!-- AppModule -->
+<g id="node12" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1588.6571,-407 1585.6571,-411 1564.6571,-411 1561.6571,-407 1505.3429,-407 1505.3429,-371 1588.6571,-371 1588.6571,-407"/>
+<text text-anchor="middle" x="1547" y="-384.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AboutModule&#45;&gt;AppModule -->
+<g id="edge11" class="edge">
+<title>AboutModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M7516,-274.0712C7516,-312.941 7516,-401 7516,-401 7516,-401 1598.7109,-401 1598.7109,-401"/>
+<polygon fill="#000000" stroke="#000000" points="1598.7109,-397.5001 1588.7109,-401 1598.7109,-404.5001 1598.7109,-397.5001"/>
+</g>
+<!-- AboutRoutingModule -->
+<g id="node4" class="node">
+<title>AboutRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="7654.6652,-198 7651.6652,-202 7630.6652,-202 7627.6652,-198 7515.3348,-198 7515.3348,-162 7654.6652,-162 7654.6652,-198"/>
+<text text-anchor="middle" x="7585" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutRoutingModule</text>
+</g>
+<!-- AboutRoutingModule&#45;&gt;AboutModule -->
+<g id="edge3" class="edge">
+<title>AboutRoutingModule&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M7539.2206,-198.0109C7539.2206,-198.0109 7539.2206,-227.855 7539.2206,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="7535.7206,-227.8549 7539.2206,-237.855 7542.7206,-227.855 7535.7206,-227.8549"/>
+</g>
+<!-- SharedModule -->
+<g id="node5" class="node">
+<title>SharedModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="7497.4231,-198 7494.4231,-202 7473.4231,-202 7470.4231,-198 7398.5769,-198 7398.5769,-162 7497.4231,-162 7497.4231,-198"/>
+<text text-anchor="middle" x="7448" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">SharedModule</text>
+</g>
+<!-- SharedModule&#45;&gt;AboutModule -->
+<g id="edge4" class="edge">
+<title>SharedModule&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M7478.2214,-198.0109C7478.2214,-198.0109 7478.2214,-227.855 7478.2214,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="7474.7215,-227.8549 7478.2214,-237.855 7481.7215,-227.855 7474.7215,-227.8549"/>
+</g>
+<!-- AnalyticsModule -->
+<g id="node8" class="node">
+<title>AnalyticsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="8294.7022,-274 8291.7022,-278 8270.7022,-278 8267.7022,-274 8181.2978,-274 8181.2978,-238 8294.7022,-238 8294.7022,-274"/>
+<text text-anchor="middle" x="8238" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AnalyticsModule</text>
+</g>
+<!-- SharedModule&#45;&gt;AnalyticsModule -->
+<g id="edge8" class="edge">
+<title>SharedModule&#45;&gt;AnalyticsModule</title>
+<path fill="none" stroke="#000000" d="M7487.7162,-198.1223C7487.7162,-200.9729 7487.7162,-203 7487.7162,-203 7487.7162,-203 8219.133,-203 8219.133,-203 8219.133,-203 8219.133,-227.7604 8219.133,-227.7604"/>
+<polygon fill="#000000" stroke="#000000" points="8215.6331,-227.7604 8219.133,-237.7604 8222.6331,-227.7604 8215.6331,-227.7604"/>
+</g>
+<!-- SharedModule&#45;&gt;AppModule -->
+<g id="edge18" class="edge">
+<title>SharedModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M7459.9843,-198.2116C7459.9843,-250.6057 7459.9843,-398 7459.9843,-398 7459.9843,-398 1598.7246,-398 1598.7246,-398"/>
+<polygon fill="#000000" stroke="#000000" points="1598.7246,-394.5001 1588.7246,-398 1598.7246,-401.5001 1598.7246,-394.5001"/>
+</g>
+<!-- AppsModule -->
+<g id="node13" class="node">
+<title>AppsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1476.6011,-342 1473.6011,-346 1452.6011,-346 1449.6011,-342 1387.3989,-342 1387.3989,-306 1476.6011,-306 1476.6011,-342"/>
+<text text-anchor="middle" x="1432" y="-319.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsModule</text>
+</g>
+<!-- SharedModule&#45;&gt;AppsModule -->
+<g id="edge27" class="edge">
+<title>SharedModule&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M7416.2733,-198.1679C7416.2733,-200.4478 7416.2733,-202 7416.2733,-202 7416.2733,-202 1456.3301,-202 1456.3301,-202 1456.3301,-202 1456.3301,-295.9985 1456.3301,-295.9985"/>
+<polygon fill="#000000" stroke="#000000" points="1452.8302,-295.9984 1456.3301,-305.9985 1459.8302,-295.9985 1452.8302,-295.9984"/>
+</g>
+<!-- AuthModule -->
+<g id="node14" class="node">
+<title>AuthModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1450.5482,-274 1447.5482,-278 1426.5482,-278 1423.5482,-274 1363.4518,-274 1363.4518,-238 1450.5482,-238 1450.5482,-274"/>
+<text text-anchor="middle" x="1407" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AuthModule</text>
+</g>
+<!-- SharedModule&#45;&gt;AuthModule -->
+<g id="edge36" class="edge">
+<title>SharedModule&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M7407.5311,-198.1543C7407.5311,-199.2969 7407.5311,-200 7407.5311,-200 7407.5311,-200 1432.5982,-200 1432.5982,-200 1432.5982,-200 1432.5982,-227.973 1432.5982,-227.973"/>
+<polygon fill="#000000" stroke="#000000" points="1429.0983,-227.973 1432.5982,-237.973 1436.0983,-227.973 1429.0983,-227.973"/>
+</g>
+<!-- JobsModule -->
+<g id="node16" class="node">
+<title>JobsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1553.4401,-274 1550.4401,-278 1529.4401,-278 1526.4401,-274 1468.5599,-274 1468.5599,-238 1553.4401,-238 1553.4401,-274"/>
+<text text-anchor="middle" x="1511" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobsModule</text>
+</g>
+<!-- SharedModule&#45;&gt;JobsModule -->
+<g id="edge48" class="edge">
+<title>SharedModule&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M7425.0155,-198.0511C7425.0155,-212.373 7425.0155,-230 7425.0155,-230 7425.0155,-230 1544.7756,-230 1544.7756,-230 1544.7756,-230 1544.7756,-230.7942 1544.7756,-230.7942"/>
+<polygon fill="#000000" stroke="#000000" points="1541.2757,-227.9421 1544.7756,-237.9421 1548.2757,-227.9422 1541.2757,-227.9421"/>
+</g>
+<!-- RuntimeAppsModule -->
+<g id="node17" class="node">
+<title>RuntimeAppsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1708.8244,-274 1705.8244,-278 1684.8244,-278 1681.8244,-274 1571.1756,-274 1571.1756,-238 1708.8244,-238 1708.8244,-274"/>
+<text text-anchor="middle" x="1640" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">RuntimeAppsModule</text>
+</g>
+<!-- SharedModule&#45;&gt;RuntimeAppsModule -->
+<g id="edge52" class="edge">
+<title>SharedModule&#45;&gt;RuntimeAppsModule</title>
+<path fill="none" stroke="#000000" d="M7433.7577,-198.0352C7433.7577,-214.7344 7433.7577,-237 7433.7577,-237 7433.7577,-237 1689.2553,-237 1689.2553,-237 1689.2553,-237 1689.2553,-237.0816 1689.2553,-237.0816"/>
+<polygon fill="#000000" stroke="#000000" points="1685.7566,-227.8159 1689.2553,-237.8164 1692.7566,-227.8169 1685.7566,-227.8159"/>
+</g>
+<!-- StreamsModule -->
+<g id="node18" class="node">
+<title>StreamsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1599.1486,-342 1596.1486,-346 1575.1486,-346 1572.1486,-342 1494.8514,-342 1494.8514,-306 1599.1486,-306 1599.1486,-342"/>
+<text text-anchor="middle" x="1547" y="-319.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamsModule</text>
+</g>
+<!-- SharedModule&#45;&gt;StreamsModule -->
+<g id="edge86" class="edge">
+<title>SharedModule&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M7442.4999,-198.3294C7442.4999,-229.8565 7442.4999,-291 7442.4999,-291 7442.4999,-291 1543.4623,-291 1543.4623,-291 1543.4623,-291 1543.4623,-295.9551 1543.4623,-295.9551"/>
+<polygon fill="#000000" stroke="#000000" points="1539.9623,-295.9551 1543.4623,-305.9551 1546.9623,-295.9552 1539.9623,-295.9551"/>
+</g>
+<!-- TasksModule -->
+<g id="node19" class="node">
+<title>TasksModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1709.2064,-342 1706.2064,-346 1685.2064,-346 1682.2064,-342 1616.7936,-342 1616.7936,-306 1709.2064,-306 1709.2064,-342"/>
+<text text-anchor="middle" x="1663" y="-319.8" font-family="Times,serif" font-size="14.00" fill="#000000">TasksModule</text>
+</g>
+<!-- SharedModule&#45;&gt;TasksModule -->
+<g id="edge104" class="edge">
+<title>SharedModule&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M7451.2421,-198.1924C7451.2421,-248.3636 7451.2421,-385 7451.2421,-385 7451.2421,-385 1684.5148,-385 1684.5148,-385 1684.5148,-385 1684.5148,-352.302 1684.5148,-352.302"/>
+<polygon fill="#000000" stroke="#000000" points="1688.0149,-352.302 1684.5148,-342.302 1681.0149,-352.302 1688.0149,-352.302"/>
+</g>
+<!-- ClickOutsideDirective  -->
+<g id="node60" class="node">
+<title>ClickOutsideDirective </title>
+<polygon fill="#fb8072" stroke="#000000" points="7445.9629,-122 7300.0371,-122 7300.0371,-86 7445.9629,-86 7445.9629,-122"/>
+<text text-anchor="middle" x="7373" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ClickOutsideDirective </text>
+</g>
+<!-- SharedModule&#45;&gt;ClickOutsideDirective  -->
+<g id="edge66" class="edge">
+<title>SharedModule&#45;&gt;ClickOutsideDirective </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7422.26,-161.9891C7422.26,-161.9891 7422.26,-132.145 7422.26,-132.145"/>
+<polygon fill="#000000" stroke="#000000" points="7425.7601,-132.145 7422.26,-122.145 7418.7601,-132.1451 7425.7601,-132.145"/>
+</g>
+<!-- CapitalizePipe  -->
+<g id="node61" class="node">
+<title>CapitalizePipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="7282.6453,-122 7181.3547,-122 7181.3547,-86 7282.6453,-86 7282.6453,-122"/>
+<text text-anchor="middle" x="7232" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CapitalizePipe </text>
+</g>
+<!-- SharedModule&#45;&gt;CapitalizePipe  -->
+<g id="edge67" class="edge">
+<title>SharedModule&#45;&gt;CapitalizePipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.6349,-165C7344.0694,-165 7263.7891,-165 7263.7891,-165 7263.7891,-165 7263.7891,-132.302 7263.7891,-132.302"/>
+<polygon fill="#000000" stroke="#000000" points="7267.2892,-132.302 7263.7891,-122.302 7260.2892,-132.302 7267.2892,-132.302"/>
+</g>
+<!-- DataflowDateTimePipe  -->
+<g id="node62" class="node">
+<title>DataflowDateTimePipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="7163.4475,-122 7010.5525,-122 7010.5525,-86 7163.4475,-86 7163.4475,-122"/>
+<text text-anchor="middle" x="7087" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DataflowDateTimePipe </text>
+</g>
+<!-- SharedModule&#45;&gt;DataflowDateTimePipe  -->
+<g id="edge68" class="edge">
+<title>SharedModule&#45;&gt;DataflowDateTimePipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.7581,-168C7308.5809,-168 7126.0879,-168 7126.0879,-168 7126.0879,-168 7126.0879,-132.1686 7126.0879,-132.1686"/>
+<polygon fill="#000000" stroke="#000000" points="7129.5879,-132.1686 7126.0879,-122.1686 7122.5879,-132.1687 7129.5879,-132.1686"/>
+</g>
+<!-- DataflowDurationPipe  -->
+<g id="node63" class="node">
+<title>DataflowDurationPipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="6993.2352,-122 6846.7648,-122 6846.7648,-86 6993.2352,-86 6993.2352,-122"/>
+<text text-anchor="middle" x="6920" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DataflowDurationPipe </text>
+</g>
+<!-- SharedModule&#45;&gt;DataflowDurationPipe  -->
+<g id="edge69" class="edge">
+<title>SharedModule&#45;&gt;DataflowDurationPipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.5098,-171C7271.9071,-171 6946.1755,-171 6946.1755,-171 6946.1755,-171 6946.1755,-132.308 6946.1755,-132.308"/>
+<polygon fill="#000000" stroke="#000000" points="6949.6756,-132.308 6946.1755,-122.308 6942.6756,-132.3081 6949.6756,-132.308"/>
+</g>
+<!-- KeyValuePipe  -->
+<g id="node64" class="node">
+<title>KeyValuePipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="6828.6355,-122 6727.3645,-122 6727.3645,-86 6828.6355,-86 6828.6355,-122"/>
+<text text-anchor="middle" x="6778" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">KeyValuePipe </text>
+</g>
+<!-- SharedModule&#45;&gt;KeyValuePipe  -->
+<g id="edge70" class="edge">
+<title>SharedModule&#45;&gt;KeyValuePipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.7333,-174C7244.0051,-174 6778,-174 6778,-174 6778,-174 6778,-132.0267 6778,-132.0267"/>
+<polygon fill="#000000" stroke="#000000" points="6781.5001,-132.0267 6778,-122.0267 6774.5001,-132.0268 6781.5001,-132.0267"/>
+</g>
+<!-- MapValuesPipe  -->
+<g id="node65" class="node">
+<title>MapValuesPipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="6709.418,-122 6600.582,-122 6600.582,-86 6709.418,-86 6709.418,-122"/>
+<text text-anchor="middle" x="6655" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">MapValuesPipe </text>
+</g>
+<!-- SharedModule&#45;&gt;MapValuesPipe  -->
+<g id="edge71" class="edge">
+<title>SharedModule&#45;&gt;MapValuesPipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.7377,-177C7229.0524,-177 6679.186,-177 6679.186,-177 6679.186,-177 6679.186,-132.0449 6679.186,-132.0449"/>
+<polygon fill="#000000" stroke="#000000" points="6682.6861,-132.0449 6679.186,-122.0449 6675.6861,-132.045 6682.6861,-132.0449"/>
+</g>
+<!-- SearchfilterPipe  -->
+<g id="node66" class="node">
+<title>SearchfilterPipe </title>
+<polygon fill="#fb8072" stroke="#000000" points="6582.6829,-122 6473.3171,-122 6473.3171,-86 6582.6829,-86 6582.6829,-122"/>
+<text text-anchor="middle" x="6528" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">SearchfilterPipe </text>
+</g>
+<!-- SharedModule&#45;&gt;SearchfilterPipe  -->
+<g id="edge72" class="edge">
+<title>SharedModule&#45;&gt;SearchfilterPipe </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.5368,-180C7207.4434,-180 6528,-180 6528,-180 6528,-180 6528,-132.0109 6528,-132.0109"/>
+<polygon fill="#000000" stroke="#000000" points="6531.5001,-132.0109 6528,-122.0109 6524.5001,-132.011 6531.5001,-132.0109"/>
+</g>
+<!-- TriStateCheckboxComponent  -->
+<g id="node67" class="node">
+<title>TriStateCheckboxComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="6455.1952,-122 6268.8048,-122 6268.8048,-86 6455.1952,-86 6455.1952,-122"/>
+<text text-anchor="middle" x="6362" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TriStateCheckboxComponent </text>
+</g>
+<!-- SharedModule&#45;&gt;TriStateCheckboxComponent  -->
+<g id="edge73" class="edge">
+<title>SharedModule&#45;&gt;TriStateCheckboxComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.4483,-183C7196.8253,-183 6448.7748,-183 6448.7748,-183 6448.7748,-183 6448.7748,-132.3228 6448.7748,-132.3228"/>
+<polygon fill="#000000" stroke="#000000" points="6452.2748,-132.3227 6448.7748,-122.3228 6445.2748,-132.3228 6452.2748,-132.3227"/>
+</g>
+<!-- TriStateButtonComponent  -->
+<g id="node68" class="node">
+<title>TriStateButtonComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="6251.047,-122 6082.953,-122 6082.953,-86 6251.047,-86 6251.047,-122"/>
+<text text-anchor="middle" x="6167" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TriStateButtonComponent </text>
+</g>
+<!-- SharedModule&#45;&gt;TriStateButtonComponent  -->
+<g id="edge74" class="edge">
+<title>SharedModule&#45;&gt;TriStateButtonComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.4508,-186C7171.4021,-186 6241.4108,-186 6241.4108,-186 6241.4108,-186 6241.4108,-132.1985 6241.4108,-132.1985"/>
+<polygon fill="#000000" stroke="#000000" points="6244.9108,-132.1984 6241.4108,-122.1985 6237.9108,-132.1985 6244.9108,-132.1984"/>
+</g>
+<!-- PropertyTableComponent  -->
+<g id="node69" class="node">
+<title>PropertyTableComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="6065.4138,-122 5900.5862,-122 5900.5862,-86 6065.4138,-86 6065.4138,-122"/>
+<text text-anchor="middle" x="5983" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">PropertyTableComponent </text>
+</g>
+<!-- SharedModule&#45;&gt;PropertyTableComponent  -->
+<g id="edge75" class="edge">
+<title>SharedModule&#45;&gt;PropertyTableComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M7398.784,-189C7151.1941,-189 6053.6527,-189 6053.6527,-189 6053.6527,-189 6053.6527,-132.0263 6053.6527,-132.0263"/>
+<polygon fill="#000000" stroke="#000000" points="6057.1528,-132.0263 6053.6527,-122.0263 6050.1528,-132.0263 6057.1528,-132.0263"/>
+</g>
+<!-- AboutService -->
+<g id="node6" class="node">
+<title>AboutService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="7743" cy="-180" rx="64.2649" ry="18"/>
+<text text-anchor="middle" x="7743" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutService</text>
+</g>
+<!-- AboutService&#45;&gt;AboutModule -->
+<g id="edge5" class="edge">
+<title>AboutService&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M7743,-198.308C7743,-218.1455 7743,-247 7743,-247 7743,-247 7573.3103,-247 7573.3103,-247"/>
+<polygon fill="#000000" stroke="#000000" points="7573.3104,-243.5001 7563.3103,-247 7573.3103,-250.5001 7573.3104,-243.5001"/>
+</g>
+<!-- AnalyticsComponent -->
+<g id="node7" class="node">
+<title>AnalyticsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8655.4846,-198 8520.5154,-198 8520.5154,-162 8655.4846,-162 8655.4846,-198"/>
+<text text-anchor="middle" x="8588" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AnalyticsComponent</text>
+</g>
+<!-- AnalyticsComponent&#45;&gt;AnalyticsModule -->
+<g id="edge6" class="edge">
+<title>AnalyticsComponent&#45;&gt;AnalyticsModule</title>
+<path fill="none" stroke="#000000" d="M8588,-198.1985C8588,-222.3563 8588,-262 8588,-262 8588,-262 8304.6225,-262 8304.6225,-262"/>
+<polygon fill="#000000" stroke="#000000" points="8304.6226,-258.5001 8294.6225,-262 8304.6225,-265.5001 8304.6226,-258.5001"/>
+</g>
+<!-- AnalyticsModule&#45;&gt;AppModule -->
+<g id="edge12" class="edge">
+<title>AnalyticsModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M8238,-274.1477C8238,-313.668 8238,-404 8238,-404 8238,-404 1598.856,-404 1598.856,-404"/>
+<polygon fill="#000000" stroke="#000000" points="1598.856,-400.5001 1588.856,-404 1598.8559,-407.5001 1598.856,-400.5001"/>
+</g>
+<!-- AnalyticsRoutingModule -->
+<g id="node9" class="node">
+<title>AnalyticsRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="8497.3201,-198 8494.3201,-202 8473.3201,-202 8470.3201,-198 8338.6799,-198 8338.6799,-162 8497.3201,-162 8497.3201,-198"/>
+<text text-anchor="middle" x="8418" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AnalyticsRoutingModule</text>
+</g>
+<!-- AnalyticsRoutingModule&#45;&gt;AnalyticsModule -->
+<g id="edge7" class="edge">
+<title>AnalyticsRoutingModule&#45;&gt;AnalyticsModule</title>
+<path fill="none" stroke="#000000" d="M8418,-198.0267C8418,-218.7672 8418,-250 8418,-250 8418,-250 8304.9531,-250 8304.9531,-250"/>
+<polygon fill="#000000" stroke="#000000" points="8304.9532,-246.5001 8294.9531,-250 8304.9531,-253.5001 8304.9532,-246.5001"/>
+</g>
+<!-- AnalyticsService -->
+<g id="node10" class="node">
+<title>AnalyticsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="8238" cy="-180" rx="77.0004" ry="18"/>
+<text text-anchor="middle" x="8238" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AnalyticsService</text>
+</g>
+<!-- AnalyticsService&#45;&gt;AnalyticsModule -->
+<g id="edge9" class="edge">
+<title>AnalyticsService&#45;&gt;AnalyticsModule</title>
+<path fill="none" stroke="#000000" d="M8256.867,-197.627C8256.867,-197.627 8256.867,-227.9409 8256.867,-227.9409"/>
+<polygon fill="#000000" stroke="#000000" points="8253.3671,-227.9408 8256.867,-237.9409 8260.3671,-227.9409 8253.3671,-227.9408"/>
+</g>
+<!-- AppComponent -->
+<g id="node11" class="node">
+<title>AppComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1838.9399,-342 1733.0601,-342 1733.0601,-306 1838.9399,-306 1838.9399,-342"/>
+<text text-anchor="middle" x="1786" y="-319.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent</text>
+</g>
+<!-- AppComponent&#45;&gt;AppModule -->
+<g id="edge10" class="edge">
+<title>AppComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1786,-342.0267C1786,-362.7672 1786,-394 1786,-394 1786,-394 1598.9041,-394 1598.9041,-394"/>
+<polygon fill="#000000" stroke="#000000" points="1598.9041,-390.5001 1588.9041,-394 1598.9041,-397.5001 1598.9041,-390.5001"/>
+</g>
+<!-- AppComponent  -->
+<g id="node20" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="1601.439,-472 1492.561,-472 1492.561,-436 1601.439,-436 1601.439,-472"/>
+<text text-anchor="middle" x="1547" y="-449.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge21" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1547,-407.1061C1547,-407.1061 1547,-425.991 1547,-425.991"/>
+<polygon fill="#000000" stroke="#000000" points="1543.5001,-425.9909 1547,-435.991 1550.5001,-425.991 1543.5001,-425.9909"/>
+</g>
+<!-- AppsModule&#45;&gt;AppModule -->
+<g id="edge13" class="edge">
+<title>AppsModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1432,-342.2667C1432,-360.5552 1432,-386 1432,-386 1432,-386 1495.157,-386 1495.157,-386"/>
+<polygon fill="#000000" stroke="#000000" points="1495.1571,-389.5001 1505.157,-386 1495.157,-382.5001 1495.1571,-389.5001"/>
+</g>
+<!-- AuthModule&#45;&gt;AppModule -->
+<g id="edge14" class="edge">
+<title>AuthModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1375.338,-274.1925C1375.338,-311.4592 1375.338,-393 1375.338,-393 1375.338,-393 1495.0068,-393 1495.0068,-393"/>
+<polygon fill="#000000" stroke="#000000" points="1495.0068,-396.5001 1505.0068,-393 1495.0067,-389.5001 1495.0068,-396.5001"/>
+</g>
+<!-- AuthModule&#45;&gt;AppsModule -->
+<g id="edge28" class="edge">
+<title>AuthModule&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M1400.1143,-274.2228C1400.1143,-274.2228 1400.1143,-295.7269 1400.1143,-295.7269"/>
+<polygon fill="#000000" stroke="#000000" points="1396.6144,-295.7269 1400.1143,-305.7269 1403.6144,-295.727 1396.6144,-295.7269"/>
+</g>
+<!-- AuthModule&#45;&gt;StreamsModule -->
+<g id="edge87" class="edge">
+<title>AuthModule&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M1425.4439,-274.2458C1425.4439,-288.1772 1425.4439,-305 1425.4439,-305 1425.4439,-305 1504.4333,-305 1504.4333,-305 1504.4333,-305 1504.4333,-305.0816 1504.4333,-305.0816"/>
+<polygon fill="#000000" stroke="#000000" points="1500.9346,-295.8159 1504.4333,-305.8164 1507.9346,-295.8169 1500.9346,-295.8159"/>
+</g>
+<!-- AuthModule&#45;&gt;TasksModule -->
+<g id="edge105" class="edge">
+<title>AuthModule&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M1438.1087,-274.037C1438.1087,-287.2913 1438.1087,-303 1438.1087,-303 1438.1087,-303 1662.7795,-303 1662.7795,-303 1662.7795,-303 1662.7795,-303.292 1662.7795,-303.292"/>
+<polygon fill="#000000" stroke="#000000" points="1659.2798,-295.9198 1662.7795,-305.92 1666.2798,-295.9201 1659.2798,-295.9198"/>
+</g>
+<!-- RolesDirective  -->
+<g id="node33" class="node">
+<title>RolesDirective </title>
+<polygon fill="#fb8072" stroke="#000000" points="542.9703,-198 439.0297,-198 439.0297,-162 542.9703,-162 542.9703,-198"/>
+<text text-anchor="middle" x="491" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RolesDirective </text>
+</g>
+<!-- AuthModule&#45;&gt;RolesDirective  -->
+<g id="edge37" class="edge">
+<title>AuthModule&#45;&gt;RolesDirective </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1381.8434,-237.5146C1381.8434,-225.8601 1381.8434,-213 1381.8434,-213 1381.8434,-213 491,-213 491,-213 491,-213 491,-208.0449 491,-208.0449"/>
+<polygon fill="#000000" stroke="#000000" points="494.5001,-208.0448 491,-198.0449 487.5001,-208.0449 494.5001,-208.0448"/>
+</g>
+<!-- CapsLockDirective  -->
+<g id="node34" class="node">
+<title>CapsLockDirective </title>
+<polygon fill="#fb8072" stroke="#000000" points="421.3463,-198 292.6537,-198 292.6537,-162 421.3463,-162 421.3463,-198"/>
+<text text-anchor="middle" x="357" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">CapsLockDirective </text>
+</g>
+<!-- AuthModule&#45;&gt;CapsLockDirective  -->
+<g id="edge38" class="edge">
+<title>AuthModule&#45;&gt;CapsLockDirective </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1377.1892,-237.9445C1377.1892,-226.561 1377.1892,-214 1377.1892,-214 1377.1892,-214 357,-214 357,-214 357,-214 357,-208.1944 357,-208.1944"/>
+<polygon fill="#000000" stroke="#000000" points="360.5001,-208.1944 357,-198.1944 353.5001,-208.1945 360.5001,-208.1944"/>
+</g>
+<!-- AppRoutingModule -->
+<g id="node15" class="node">
+<title>AppRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1345.2744,-274 1342.2744,-278 1321.2744,-278 1318.2744,-274 1216.7256,-274 1216.7256,-238 1345.2744,-238 1345.2744,-274"/>
+<text text-anchor="middle" x="1281" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppRoutingModule</text>
+</g>
+<!-- AppRoutingModule&#45;&gt;AppModule -->
+<g id="edge15" class="edge">
+<title>AppRoutingModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1281,-274.2377C1281,-312.9861 1281,-400 1281,-400 1281,-400 1495.1449,-400 1495.1449,-400"/>
+<polygon fill="#000000" stroke="#000000" points="1495.1449,-403.5001 1505.1449,-400 1495.1448,-396.5001 1495.1449,-403.5001"/>
+</g>
+<!-- JobsModule&#45;&gt;AppModule -->
+<g id="edge16" class="edge">
+<title>JobsModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1484.5405,-274.1491C1484.5405,-308.3636 1484.5405,-379 1484.5405,-379 1484.5405,-379 1495.3386,-379 1495.3386,-379"/>
+<polygon fill="#000000" stroke="#000000" points="1495.3386,-382.5001 1505.3386,-379 1495.3386,-375.5001 1495.3386,-382.5001"/>
+</g>
+<!-- RuntimeAppsModule&#45;&gt;AppModule -->
+<g id="edge17" class="edge">
+<title>RuntimeAppsModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1609.1832,-274.0773C1609.1832,-310.2287 1609.1832,-388 1609.1832,-388 1609.1832,-388 1598.8221,-388 1598.8221,-388"/>
+<polygon fill="#000000" stroke="#000000" points="1598.8221,-384.5001 1588.8221,-388 1598.8221,-391.5001 1598.8221,-384.5001"/>
+</g>
+<!-- StreamsModule&#45;&gt;AppModule -->
+<g id="edge19" class="edge">
+<title>StreamsModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1547,-342.1061C1547,-342.1061 1547,-360.991 1547,-360.991"/>
+<polygon fill="#000000" stroke="#000000" points="1543.5001,-360.9909 1547,-370.991 1550.5001,-360.991 1543.5001,-360.9909"/>
+</g>
+<!-- TasksModule&#45;&gt;AppModule -->
+<g id="edge20" class="edge">
+<title>TasksModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1678.3677,-342.308C1678.3677,-362.1455 1678.3677,-391 1678.3677,-391 1678.3677,-391 1598.9267,-391 1598.9267,-391"/>
+<polygon fill="#000000" stroke="#000000" points="1598.9268,-387.5001 1588.9267,-391 1598.9267,-394.5001 1598.9268,-387.5001"/>
+</g>
+<!-- AppsComponent -->
+<g id="node21" class="node">
+<title>AppsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2825.3837,-274 2714.6163,-274 2714.6163,-238 2825.3837,-238 2825.3837,-274"/>
+<text text-anchor="middle" x="2770" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsComponent</text>
+</g>
+<!-- AppsComponent&#45;&gt;AppsModule -->
+<g id="edge22" class="edge">
+<title>AppsComponent&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M2770,-274.1543C2770,-275.2969 2770,-276 2770,-276 2770,-276 1412.7791,-276 1412.7791,-276 1412.7791,-276 1412.7791,-295.8533 1412.7791,-295.8533"/>
+<polygon fill="#000000" stroke="#000000" points="1409.2792,-295.8532 1412.7791,-305.8533 1416.2792,-295.8533 1409.2792,-295.8532"/>
+</g>
+<!-- AppsBulkImportComponent -->
+<g id="node22" class="node">
+<title>AppsBulkImportComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2696.2133,-274 2519.7867,-274 2519.7867,-238 2696.2133,-238 2696.2133,-274"/>
+<text text-anchor="middle" x="2608" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsBulkImportComponent</text>
+</g>
+<!-- AppsBulkImportComponent&#45;&gt;AppsModule -->
+<g id="edge23" class="edge">
+<title>AppsBulkImportComponent&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M2608,-274.1592C2608,-279.0433 2608,-283 2608,-283 2608,-283 1466.2904,-283 1466.2904,-283 1466.2904,-283 1466.2904,-295.8975 1466.2904,-295.8975"/>
+<polygon fill="#000000" stroke="#000000" points="1462.7905,-295.8974 1466.2904,-305.8975 1469.7905,-295.8975 1462.7905,-295.8974"/>
+</g>
+<!-- AppsRegisterComponent -->
+<g id="node23" class="node">
+<title>AppsRegisterComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2501.5365,-274 2344.4635,-274 2344.4635,-238 2501.5365,-238 2501.5365,-274"/>
+<text text-anchor="middle" x="2423" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsRegisterComponent</text>
+</g>
+<!-- AppsRegisterComponent&#45;&gt;AppsModule -->
+<g id="edge24" class="edge">
+<title>AppsRegisterComponent&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M2423,-274.1686C2423,-278.0459 2423,-281 2423,-281 2423,-281 1463.8003,-281 1463.8003,-281 1463.8003,-281 1463.8003,-295.5146 1463.8003,-295.5146"/>
+<polygon fill="#000000" stroke="#000000" points="1460.3004,-295.5145 1463.8003,-305.5146 1467.3004,-295.5146 1460.3004,-295.5145"/>
+</g>
+<!-- AppDetailsComponent -->
+<g id="node24" class="node">
+<title>AppDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2326.5912,-274 2181.4088,-274 2181.4088,-238 2326.5912,-238 2326.5912,-274"/>
+<text text-anchor="middle" x="2254" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppDetailsComponent</text>
+</g>
+<!-- AppDetailsComponent&#45;&gt;AppsModule -->
+<g id="edge25" class="edge">
+<title>AppDetailsComponent&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M2254,-274.1903C2254,-277.5376 2254,-280 2254,-280 2254,-280 1461.3102,-280 1461.3102,-280 1461.3102,-280 1461.3102,-295.8495 1461.3102,-295.8495"/>
+<polygon fill="#000000" stroke="#000000" points="1457.8103,-295.8494 1461.3102,-305.8495 1464.8103,-295.8495 1457.8103,-295.8494"/>
+</g>
+<!-- AppsRoutingModule -->
+<g id="node25" class="node">
+<title>AppsRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="2157.219,-274 2154.219,-278 2133.219,-278 2130.219,-274 2022.781,-274 2022.781,-238 2157.219,-238 2157.219,-274"/>
+<text text-anchor="middle" x="2090" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsRoutingModule</text>
+</g>
+<!-- AppsRoutingModule&#45;&gt;AppsModule -->
+<g id="edge26" class="edge">
+<title>AppsRoutingModule&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M2090,-274.1679C2090,-276.4478 2090,-278 2090,-278 2090,-278 1458.8202,-278 1458.8202,-278 1458.8202,-278 1458.8202,-295.8196 1458.8202,-295.8196"/>
+<polygon fill="#000000" stroke="#000000" points="1455.3203,-295.8195 1458.8202,-305.8196 1462.3203,-295.8196 1455.3203,-295.8195"/>
+</g>
+<!-- AppsService -->
+<g id="node26" class="node">
+<title>AppsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="1939" cy="-256" rx="60.2518" ry="18"/>
+<text text-anchor="middle" x="1939" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppsService</text>
+</g>
+<!-- AppsService&#45;&gt;AppsModule -->
+<g id="edge29" class="edge">
+<title>AppsService&#45;&gt;AppsModule</title>
+<path fill="none" stroke="#000000" d="M1939,-274.2015C1939,-280.028 1939,-285 1939,-285 1939,-285 1472.6655,-285 1472.6655,-285 1472.6655,-285 1472.6655,-295.8701 1472.6655,-295.8701"/>
+<polygon fill="#000000" stroke="#000000" points="1469.1656,-295.8701 1472.6655,-305.8701 1476.1656,-295.8701 1469.1656,-295.8701"/>
+</g>
+<!-- CapsLockDirective -->
+<g id="node27" class="node">
+<title>CapsLockDirective</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1414.3459,-198 1289.6541,-198 1289.6541,-162 1414.3459,-162 1414.3459,-198"/>
+<text text-anchor="middle" x="1352" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">CapsLockDirective</text>
+</g>
+<!-- CapsLockDirective&#45;&gt;AuthModule -->
+<g id="edge30" class="edge">
+<title>CapsLockDirective&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M1409.7687,-198.0109C1409.7687,-198.0109 1409.7687,-227.855 1409.7687,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="1406.2688,-227.8549 1409.7687,-237.855 1413.2688,-227.855 1406.2688,-227.8549"/>
+</g>
+<!-- LoginComponent -->
+<g id="node28" class="node">
+<title>LoginComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1271.2758,-198 1156.7242,-198 1156.7242,-162 1271.2758,-162 1271.2758,-198"/>
+<text text-anchor="middle" x="1214" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">LoginComponent</text>
+</g>
+<!-- LoginComponent&#45;&gt;AuthModule -->
+<g id="edge31" class="edge">
+<title>LoginComponent&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M1244.0004,-198.1686C1244.0004,-202.0459 1244.0004,-205 1244.0004,-205 1244.0004,-205 1405.1145,-205 1405.1145,-205 1405.1145,-205 1405.1145,-227.8757 1405.1145,-227.8757"/>
+<polygon fill="#000000" stroke="#000000" points="1401.6146,-227.8757 1405.1145,-237.8757 1408.6146,-227.8757 1401.6146,-227.8757"/>
+</g>
+<!-- LogoutComponent -->
+<g id="node29" class="node">
+<title>LogoutComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1138.7758,-198 1017.2242,-198 1017.2242,-162 1138.7758,-162 1138.7758,-198"/>
+<text text-anchor="middle" x="1078" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">LogoutComponent</text>
+</g>
+<!-- LogoutComponent&#45;&gt;AuthModule -->
+<g id="edge32" class="edge">
+<title>LogoutComponent&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M1078,-198.0579C1078,-202.4945 1078,-206 1078,-206 1078,-206 1400.4602,-206 1400.4602,-206 1400.4602,-206 1400.4602,-227.9489 1400.4602,-227.9489"/>
+<polygon fill="#000000" stroke="#000000" points="1396.9603,-227.9488 1400.4602,-237.9489 1403.9603,-227.9489 1396.9603,-227.9488"/>
+</g>
+<!-- RolesDirective -->
+<g id="node30" class="node">
+<title>RolesDirective</title>
+<polygon fill="#ffffb3" stroke="#000000" points="998.9692,-198 899.0308,-198 899.0308,-162 998.9692,-162 998.9692,-198"/>
+<text text-anchor="middle" x="949" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RolesDirective</text>
+</g>
+<!-- RolesDirective&#45;&gt;AuthModule -->
+<g id="edge33" class="edge">
+<title>RolesDirective&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M949,-198.207C949,-203.5549 949,-208 949,-208 949,-208 1395.806,-208 1395.806,-208 1395.806,-208 1395.806,-227.8533 1395.806,-227.8533"/>
+<polygon fill="#000000" stroke="#000000" points="1392.3061,-227.8532 1395.806,-237.8533 1399.3061,-227.8533 1392.3061,-227.8532"/>
+</g>
+<!-- RolesMissingComponent -->
+<g id="node31" class="node">
+<title>RolesMissingComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="881.3342,-198 722.6658,-198 722.6658,-162 881.3342,-162 881.3342,-198"/>
+<text text-anchor="middle" x="802" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RolesMissingComponent</text>
+</g>
+<!-- RolesMissingComponent&#45;&gt;AuthModule -->
+<g id="edge34" class="edge">
+<title>RolesMissingComponent&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M802,-198.1432C802,-204.4611 802,-210 802,-210 802,-210 1391.1518,-210 1391.1518,-210 1391.1518,-210 1391.1518,-227.8196 1391.1518,-227.8196"/>
+<polygon fill="#000000" stroke="#000000" points="1387.6519,-227.8195 1391.1518,-237.8196 1394.6519,-227.8196 1387.6519,-227.8195"/>
+</g>
+<!-- AuthRoutingModule -->
+<g id="node32" class="node">
+<title>AuthRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="699.1652,-198 696.1652,-202 675.1652,-202 672.1652,-198 566.8348,-198 566.8348,-162 699.1652,-162 699.1652,-198"/>
+<text text-anchor="middle" x="633" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AuthRoutingModule</text>
+</g>
+<!-- AuthRoutingModule&#45;&gt;AuthModule -->
+<g id="edge35" class="edge">
+<title>AuthRoutingModule&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M633,-198.0328C633,-204.8526 633,-211 633,-211 633,-211 1386.4976,-211 1386.4976,-211 1386.4976,-211 1386.4976,-227.9561 1386.4976,-227.9561"/>
+<polygon fill="#000000" stroke="#000000" points="1382.9977,-227.956 1386.4976,-237.9561 1389.9977,-227.9561 1382.9977,-227.956"/>
+</g>
+<!-- AuthGuard -->
+<g id="node35" class="node">
+<title>AuthGuard</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="215" cy="-180" rx="54.4566" ry="18"/>
+<text text-anchor="middle" x="215" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AuthGuard</text>
+</g>
+<!-- AuthGuard&#45;&gt;AuthModule -->
+<g id="edge39" class="edge">
+<title>AuthGuard&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M215,-198C215,-207 215,-216 215,-216 215,-216 1372.5349,-216 1372.5349,-216 1372.5349,-216 1372.5349,-227.8726 1372.5349,-227.8726"/>
+<polygon fill="#000000" stroke="#000000" points="1369.035,-227.8725 1372.5349,-237.8726 1376.035,-227.8726 1369.035,-227.8725"/>
+</g>
+<!-- AuthService -->
+<g id="node36" class="node">
+<title>AuthService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="83" cy="-180" rx="59.1083" ry="18"/>
+<text text-anchor="middle" x="83" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AuthService</text>
+</g>
+<!-- AuthService&#45;&gt;AuthModule -->
+<g id="edge40" class="edge">
+<title>AuthService&#45;&gt;AuthModule</title>
+<path fill="none" stroke="#000000" d="M83,-198.1097C83,-207.897 83,-218 83,-218 83,-218 1367.8807,-218 1367.8807,-218 1367.8807,-218 1367.8807,-227.8903 1367.8807,-227.8903"/>
+<polygon fill="#000000" stroke="#000000" points="1364.3808,-227.8903 1367.8807,-237.8903 1371.3808,-227.8904 1364.3808,-227.8903"/>
+</g>
+<!-- JobsComponent -->
+<g id="node37" class="node">
+<title>JobsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2918.2218,-198 2811.7782,-198 2811.7782,-162 2918.2218,-162 2918.2218,-198"/>
+<text text-anchor="middle" x="2865" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobsComponent</text>
+</g>
+<!-- JobsComponent&#45;&gt;JobsModule -->
+<g id="edge41" class="edge">
+<title>JobsComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M2818.6655,-198.2458C2818.6655,-212.1772 2818.6655,-229 2818.6655,-229 2818.6655,-229 1536.3317,-229 1536.3317,-229 1536.3317,-229 1536.3317,-229.8841 1536.3317,-229.8841"/>
+<polygon fill="#000000" stroke="#000000" points="1532.8318,-227.8408 1536.3317,-237.8408 1539.8318,-227.8409 1532.8318,-227.8408"/>
+</g>
+<!-- JobExecutionStatusComponent -->
+<g id="node38" class="node">
+<title>JobExecutionStatusComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2793.7631,-198 2602.2369,-198 2602.2369,-162 2793.7631,-162 2793.7631,-198"/>
+<text text-anchor="middle" x="2698" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobExecutionStatusComponent</text>
+</g>
+<!-- JobExecutionStatusComponent&#45;&gt;JobsModule -->
+<g id="edge42" class="edge">
+<title>JobExecutionStatusComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M2649.1126,-198.037C2649.1126,-211.2913 2649.1126,-227 2649.1126,-227 2649.1126,-227 1527.8878,-227 1527.8878,-227 1527.8878,-227 1527.8878,-228.0799 1527.8878,-228.0799"/>
+<polygon fill="#000000" stroke="#000000" points="1524.3879,-227.7985 1527.8878,-237.7985 1531.3879,-227.7986 1524.3879,-227.7985"/>
+</g>
+<!-- DefinitionStatusComponent -->
+<g id="node39" class="node">
+<title>DefinitionStatusComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2584.5996,-198 2411.4004,-198 2411.4004,-162 2584.5996,-162 2584.5996,-198"/>
+<text text-anchor="middle" x="2498" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">DefinitionStatusComponent</text>
+</g>
+<!-- DefinitionStatusComponent&#45;&gt;JobsModule -->
+<g id="edge43" class="edge">
+<title>DefinitionStatusComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M2456.6091,-198.1804C2456.6091,-211.0382 2456.6091,-226 2456.6091,-226 2456.6091,-226 1519.4439,-226 1519.4439,-226 1519.4439,-226 1519.4439,-227.8568 1519.4439,-227.8568"/>
+<polygon fill="#000000" stroke="#000000" points="1515.944,-227.8568 1519.4439,-237.8568 1522.944,-227.8568 1515.944,-227.8568"/>
+</g>
+<!-- JobExecutionDetailsComponent -->
+<g id="node40" class="node">
+<title>JobExecutionDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2393.6923,-198 2196.3077,-198 2196.3077,-162 2393.6923,-162 2393.6923,-198"/>
+<text text-anchor="middle" x="2295" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobExecutionDetailsComponent</text>
+</g>
+<!-- JobExecutionDetailsComponent&#45;&gt;JobsModule -->
+<g id="edge44" class="edge">
+<title>JobExecutionDetailsComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M2261.4748,-198.1505C2261.4748,-210.2708 2261.4748,-224 2261.4748,-224 2261.4748,-224 1511,-224 1511,-224 1511,-224 1511,-227.7566 1511,-227.7566"/>
+<polygon fill="#000000" stroke="#000000" points="1507.5001,-227.7566 1511,-237.7566 1514.5001,-227.7566 1507.5001,-227.7566"/>
+</g>
+<!-- StepExecutionDetailsComponent -->
+<g id="node41" class="node">
+<title>StepExecutionDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2178.1357,-198 1975.8643,-198 1975.8643,-162 2178.1357,-162 2178.1357,-198"/>
+<text text-anchor="middle" x="2077" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">StepExecutionDetailsComponent</text>
+</g>
+<!-- StepExecutionDetailsComponent&#45;&gt;JobsModule -->
+<g id="edge45" class="edge">
+<title>StepExecutionDetailsComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M1987.529,-198.0555C1987.529,-209.439 1987.529,-222 1987.529,-222 1987.529,-222 1502.5561,-222 1502.5561,-222 1502.5561,-222 1502.5561,-227.8056 1502.5561,-227.8056"/>
+<polygon fill="#000000" stroke="#000000" points="1499.0562,-227.8055 1502.5561,-237.8056 1506.0562,-227.8056 1499.0562,-227.8055"/>
+</g>
+<!-- StepExecutionProgressComponent -->
+<g id="node42" class="node">
+<title>StepExecutionProgressComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1957.6909,-198 1746.3091,-198 1746.3091,-162 1957.6909,-162 1957.6909,-198"/>
+<text text-anchor="middle" x="1852" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">StepExecutionProgressComponent</text>
+</g>
+<!-- StepExecutionProgressComponent&#45;&gt;JobsModule -->
+<g id="edge46" class="edge">
+<title>StepExecutionProgressComponent&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M1792.5621,-198.1025C1792.5621,-209.0859 1792.5621,-221 1792.5621,-221 1792.5621,-221 1494.1122,-221 1494.1122,-221 1494.1122,-221 1494.1122,-227.68 1494.1122,-227.68"/>
+<polygon fill="#000000" stroke="#000000" points="1490.6123,-227.6799 1494.1122,-237.68 1497.6123,-227.68 1490.6123,-227.6799"/>
+</g>
+<!-- JobsRoutingModule -->
+<g id="node43" class="node">
+<title>JobsRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1721.5576,-198 1718.5576,-202 1697.5576,-202 1694.5576,-198 1592.4424,-198 1592.4424,-162 1721.5576,-162 1721.5576,-198"/>
+<text text-anchor="middle" x="1657" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobsRoutingModule</text>
+</g>
+<!-- JobsRoutingModule&#45;&gt;JobsModule -->
+<g id="edge47" class="edge">
+<title>JobsRoutingModule&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M1611.6283,-198.1299C1611.6283,-208.3145 1611.6283,-219 1611.6283,-219 1611.6283,-219 1485.6683,-219 1485.6683,-219 1485.6683,-219 1485.6683,-227.9336 1485.6683,-227.9336"/>
+<polygon fill="#000000" stroke="#000000" points="1482.1684,-227.9335 1485.6683,-237.9336 1489.1684,-227.9336 1482.1684,-227.9335"/>
+</g>
+<!-- JobsService -->
+<g id="node44" class="node">
+<title>JobsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="1511" cy="-180" rx="57.3205" ry="18"/>
+<text text-anchor="middle" x="1511" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">JobsService</text>
+</g>
+<!-- JobsService&#45;&gt;JobsModule -->
+<g id="edge49" class="edge">
+<title>JobsService&#45;&gt;JobsModule</title>
+<path fill="none" stroke="#000000" d="M1477.2244,-194.6536C1477.2244,-194.6536 1477.2244,-227.9047 1477.2244,-227.9047"/>
+<polygon fill="#000000" stroke="#000000" points="1473.7245,-227.9047 1477.2244,-237.9047 1480.7245,-227.9048 1473.7245,-227.9047"/>
+</g>
+<!-- RuntimeAppsComponent -->
+<g id="node45" class="node">
+<title>RuntimeAppsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="3535.6066,-198 3376.3934,-198 3376.3934,-162 3535.6066,-162 3535.6066,-198"/>
+<text text-anchor="middle" x="3456" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RuntimeAppsComponent</text>
+</g>
+<!-- RuntimeAppsComponent&#45;&gt;RuntimeAppsModule -->
+<g id="edge50" class="edge">
+<title>RuntimeAppsComponent&#45;&gt;RuntimeAppsModule</title>
+<path fill="none" stroke="#000000" d="M3456,-198.0091C3456,-214.0494 3456,-235 3456,-235 3456,-235 1669.8485,-235 1669.8485,-235 1669.8485,-235 1669.8485,-235.292 1669.8485,-235.292"/>
+<polygon fill="#000000" stroke="#000000" points="1666.3489,-227.9198 1669.8485,-237.92 1673.3489,-227.9201 1666.3489,-227.9198"/>
+</g>
+<!-- RuntimeAppsRoutingModule -->
+<g id="node46" class="node">
+<title>RuntimeAppsRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="3352.4423,-198 3349.4423,-202 3328.4423,-202 3325.4423,-198 3169.5577,-198 3169.5577,-162 3352.4423,-162 3352.4423,-198"/>
+<text text-anchor="middle" x="3261" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RuntimeAppsRoutingModule</text>
+</g>
+<!-- RuntimeAppsRoutingModule&#45;&gt;RuntimeAppsModule -->
+<g id="edge51" class="edge">
+<title>RuntimeAppsRoutingModule&#45;&gt;RuntimeAppsModule</title>
+<path fill="none" stroke="#000000" d="M3184.4547,-198.2819C3184.4547,-213.9478 3184.4547,-234 3184.4547,-234 3184.4547,-234 1650.4418,-234 1650.4418,-234 1650.4418,-234 1650.4418,-234.3832 1650.4418,-234.3832"/>
+<polygon fill="#000000" stroke="#000000" points="1646.9421,-227.832 1650.4418,-237.8321 1653.9421,-227.8322 1646.9421,-227.832"/>
+</g>
+<!-- RuntimeAppsService -->
+<g id="node47" class="node">
+<title>RuntimeAppsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="3052" cy="-180" rx="93.7784" ry="18"/>
+<text text-anchor="middle" x="3052" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">RuntimeAppsService</text>
+</g>
+<!-- RuntimeAppsService&#45;&gt;RuntimeAppsModule -->
+<g id="edge53" class="edge">
+<title>RuntimeAppsService&#45;&gt;RuntimeAppsModule</title>
+<path fill="none" stroke="#000000" d="M3005.7689,-195.8843C3005.7689,-211.1765 3005.7689,-232 3005.7689,-232 3005.7689,-232 1631.0351,-232 1631.0351,-232 1631.0351,-232 1631.0351,-232.581 1631.0351,-232.581"/>
+<polygon fill="#000000" stroke="#000000" points="1627.5353,-227.8097 1631.0351,-237.8097 1634.5353,-227.8098 1627.5353,-227.8097"/>
+</g>
+<!-- CapitalizePipe -->
+<g id="node48" class="node">
+<title>CapitalizePipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="9230.6458,-122 9133.3542,-122 9133.3542,-86 9230.6458,-86 9230.6458,-122"/>
+<text text-anchor="middle" x="9182" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CapitalizePipe</text>
+</g>
+<!-- CapitalizePipe&#45;&gt;SharedModule -->
+<g id="edge54" class="edge">
+<title>CapitalizePipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M9182,-122.0091C9182,-138.0494 9182,-159 9182,-159 9182,-159 7495.1403,-159 7495.1403,-159 7495.1403,-159 7495.1403,-159.292 7495.1403,-159.292"/>
+<polygon fill="#000000" stroke="#000000" points="7491.6407,-151.9198 7495.1403,-161.92 7498.6407,-151.9201 7491.6407,-151.9198"/>
+</g>
+<!-- KeyValuePipe -->
+<g id="node49" class="node">
+<title>KeyValuePipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="9114.6361,-122 9017.3639,-122 9017.3639,-86 9114.6361,-86 9114.6361,-122"/>
+<text text-anchor="middle" x="9066" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">KeyValuePipe</text>
+</g>
+<!-- KeyValuePipe&#45;&gt;SharedModule -->
+<g id="edge55" class="edge">
+<title>KeyValuePipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M9066,-122.1871C9066,-137.1824 9066,-156 9066,-156 9066,-156 7493.0695,-156 7493.0695,-156 7493.0695,-156 7493.0695,-156.581 7493.0695,-156.581"/>
+<polygon fill="#000000" stroke="#000000" points="7489.5697,-151.8097 7493.0695,-161.8097 7496.5697,-151.8098 7489.5697,-151.8097"/>
+</g>
+<!-- SearchfilterPipe -->
+<g id="node50" class="node">
+<title>SearchfilterPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8999.1826,-122 8892.8174,-122 8892.8174,-86 8999.1826,-86 8999.1826,-122"/>
+<text text-anchor="middle" x="8946" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">SearchfilterPipe</text>
+</g>
+<!-- SearchfilterPipe&#45;&gt;SharedModule -->
+<g id="edge56" class="edge">
+<title>SearchfilterPipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8946,-122.1467C8946,-135.7395 8946,-152 8946,-152 8946,-152 7490.9988,-152 7490.9988,-152 7490.9988,-152 7490.9988,-152.9793 7490.9988,-152.9793"/>
+<polygon fill="#000000" stroke="#000000" points="7487.4989,-151.793 7490.9988,-161.793 7494.4989,-151.7931 7487.4989,-151.793"/>
+</g>
+<!-- TriStateButtonComponent -->
+<g id="node51" class="node">
+<title>TriStateButtonComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8875.0476,-122 8710.9524,-122 8710.9524,-86 8875.0476,-86 8875.0476,-122"/>
+<text text-anchor="middle" x="8793" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TriStateButtonComponent</text>
+</g>
+<!-- TriStateButtonComponent&#45;&gt;SharedModule -->
+<g id="edge57" class="edge">
+<title>TriStateButtonComponent&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8793,-122.0439C8793,-134.5633 8793,-149 8793,-149 8793,-149 7488.928,-149 7488.928,-149 7488.928,-149 7488.928,-151.9672 7488.928,-151.9672"/>
+<polygon fill="#000000" stroke="#000000" points="7485.4281,-151.9671 7488.928,-161.9672 7492.4281,-151.9672 7485.4281,-151.9671"/>
+</g>
+<!-- TriStateCheckboxComponent -->
+<g id="node52" class="node">
+<title>TriStateCheckboxComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8692.6951,-122 8509.3049,-122 8509.3049,-86 8692.6951,-86 8692.6951,-122"/>
+<text text-anchor="middle" x="8601" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TriStateCheckboxComponent</text>
+</g>
+<!-- TriStateCheckboxComponent&#45;&gt;SharedModule -->
+<g id="edge58" class="edge">
+<title>TriStateCheckboxComponent&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8514.9551,-122.0555C8514.9551,-133.439 8514.9551,-146 8514.9551,-146 8514.9551,-146 7486.8572,-146 7486.8572,-146 7486.8572,-146 7486.8572,-151.8056 7486.8572,-151.8056"/>
+<polygon fill="#000000" stroke="#000000" points="7483.3573,-151.8055 7486.8572,-161.8056 7490.3573,-151.8056 7483.3573,-151.8055"/>
+</g>
+<!-- ClickOutsideDirective -->
+<g id="node53" class="node">
+<title>ClickOutsideDirective</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8490.9622,-122 8349.0378,-122 8349.0378,-86 8490.9622,-86 8490.9622,-122"/>
+<text text-anchor="middle" x="8420" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ClickOutsideDirective</text>
+</g>
+<!-- ClickOutsideDirective&#45;&gt;SharedModule -->
+<g id="edge59" class="edge">
+<title>ClickOutsideDirective&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8420,-122.1097C8420,-131.897 8420,-142 8420,-142 8420,-142 7484.7864,-142 7484.7864,-142 7484.7864,-142 7484.7864,-151.8903 7484.7864,-151.8903"/>
+<polygon fill="#000000" stroke="#000000" points="7481.2865,-151.8903 7484.7864,-161.8903 7488.2865,-151.8904 7481.2865,-151.8903"/>
+</g>
+<!-- PropertyTableComponent -->
+<g id="node54" class="node">
+<title>PropertyTableComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8330.9143,-122 8169.0857,-122 8169.0857,-86 8330.9143,-86 8330.9143,-122"/>
+<text text-anchor="middle" x="8250" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">PropertyTableComponent</text>
+</g>
+<!-- PropertyTableComponent&#45;&gt;SharedModule -->
+<g id="edge60" class="edge">
+<title>PropertyTableComponent&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8242.1466,-122.32C8242.1466,-130.7883 8242.1466,-139 8242.1466,-139 8242.1466,-139 7482.7157,-139 7482.7157,-139 7482.7157,-139 7482.7157,-151.8975 7482.7157,-151.8975"/>
+<polygon fill="#000000" stroke="#000000" points="7479.2158,-151.8974 7482.7157,-161.8975 7486.2158,-151.8975 7479.2158,-151.8974"/>
+</g>
+<!-- TabsComponent -->
+<g id="node55" class="node">
+<title>TabsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8151.0452,-122 8042.9548,-122 8042.9548,-86 8151.0452,-86 8151.0452,-122"/>
+<text text-anchor="middle" x="8097" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TabsComponent</text>
+</g>
+<!-- TabsComponent&#45;&gt;SharedModule -->
+<g id="edge61" class="edge">
+<title>TabsComponent&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M8081.9464,-122.2434C8081.9464,-129.4297 8081.9464,-136 8081.9464,-136 8081.9464,-136 7480.6449,-136 7480.6449,-136 7480.6449,-136 7480.6449,-151.8495 7480.6449,-151.8495"/>
+<polygon fill="#000000" stroke="#000000" points="7477.145,-151.8494 7480.6449,-161.8495 7484.145,-151.8495 7477.145,-151.8494"/>
+</g>
+<!-- TabComponent -->
+<g id="node56" class="node">
+<title>TabComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="8024.5996,-122 7921.4004,-122 7921.4004,-86 8024.5996,-86 8024.5996,-122"/>
+<text text-anchor="middle" x="7973" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TabComponent</text>
+</g>
+<!-- TabComponent&#45;&gt;SharedModule -->
+<g id="edge62" class="edge">
+<title>TabComponent&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M7954.2206,-122.207C7954.2206,-127.5549 7954.2206,-132 7954.2206,-132 7954.2206,-132 7478.5741,-132 7478.5741,-132 7478.5741,-132 7478.5741,-151.8533 7478.5741,-151.8533"/>
+<polygon fill="#000000" stroke="#000000" points="7475.0742,-151.8532 7478.5741,-161.8533 7482.0742,-151.8533 7475.0742,-151.8532"/>
+</g>
+<!-- DataflowDateTimePipe -->
+<g id="node57" class="node">
+<title>DataflowDateTimePipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7903.4468,-122 7754.5532,-122 7754.5532,-86 7903.4468,-86 7903.4468,-122"/>
+<text text-anchor="middle" x="7829" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DataflowDateTimePipe</text>
+</g>
+<!-- DataflowDateTimePipe&#45;&gt;SharedModule -->
+<g id="edge63" class="edge">
+<title>DataflowDateTimePipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M7780.8295,-122.1686C7780.8295,-126.0459 7780.8295,-129 7780.8295,-129 7780.8295,-129 7476.5033,-129 7476.5033,-129 7476.5033,-129 7476.5033,-151.8757 7476.5033,-151.8757"/>
+<polygon fill="#000000" stroke="#000000" points="7473.0034,-151.8757 7476.5033,-161.8757 7480.0034,-151.8757 7473.0034,-151.8757"/>
+</g>
+<!-- DataflowDurationPipe -->
+<g id="node58" class="node">
+<title>DataflowDurationPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7736.2352,-122 7593.7648,-122 7593.7648,-86 7736.2352,-86 7736.2352,-122"/>
+<text text-anchor="middle" x="7665" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DataflowDurationPipe</text>
+</g>
+<!-- DataflowDurationPipe&#45;&gt;SharedModule -->
+<g id="edge64" class="edge">
+<title>DataflowDurationPipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M7624.2325,-122.1679C7624.2325,-124.4478 7624.2325,-126 7624.2325,-126 7624.2325,-126 7474.4326,-126 7474.4326,-126 7474.4326,-126 7474.4326,-151.7181 7474.4326,-151.7181"/>
+<polygon fill="#000000" stroke="#000000" points="7470.9327,-151.718 7474.4326,-161.7181 7477.9327,-151.7181 7470.9327,-151.718"/>
+</g>
+<!-- MapValuesPipe -->
+<g id="node59" class="node">
+<title>MapValuesPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7575.9188,-122 7470.0812,-122 7470.0812,-86 7575.9188,-86 7575.9188,-122"/>
+<text text-anchor="middle" x="7523" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">MapValuesPipe</text>
+</g>
+<!-- MapValuesPipe&#45;&gt;SharedModule -->
+<g id="edge65" class="edge">
+<title>MapValuesPipe&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M7472.3618,-122.0109C7472.3618,-122.0109 7472.3618,-151.855 7472.3618,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="7468.8619,-151.8549 7472.3618,-161.855 7475.8619,-151.855 7468.8619,-151.8549"/>
+</g>
+<!-- SharedAppsService -->
+<g id="node70" class="node">
+<title>SharedAppsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="5790" cy="-104" rx="87.3789" ry="18"/>
+<text text-anchor="middle" x="5790" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">SharedAppsService</text>
+</g>
+<!-- SharedAppsService&#45;&gt;SharedModule -->
+<g id="edge76" class="edge">
+<title>SharedAppsService&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M5869.0592,-111.8094C5869.0592,-133.3463 5869.0592,-192 5869.0592,-192 5869.0592,-192 7388.5767,-192 7388.5767,-192"/>
+<polygon fill="#000000" stroke="#000000" points="7388.5768,-195.5001 7398.5767,-192 7388.5767,-188.5001 7388.5768,-195.5001"/>
+</g>
+<!-- ParserService -->
+<g id="node71" class="node">
+<title>ParserService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="5621" cy="-104" rx="64.2378" ry="18"/>
+<text text-anchor="middle" x="5621" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ParserService</text>
+</g>
+<!-- ParserService&#45;&gt;SharedModule -->
+<g id="edge77" class="edge">
+<title>ParserService&#45;&gt;SharedModule</title>
+<path fill="none" stroke="#000000" d="M5677.1909,-112.7255C5677.1909,-135.502 5677.1909,-195 5677.1909,-195 5677.1909,-195 7388.3239,-195 7388.3239,-195"/>
+<polygon fill="#000000" stroke="#000000" points="7388.324,-198.5001 7398.3239,-195 7388.3239,-191.5001 7388.324,-198.5001"/>
+</g>
+<!-- StreamsComponent -->
+<g id="node72" class="node">
+<title>StreamsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="5167.4313,-274 5040.5687,-274 5040.5687,-238 5167.4313,-238 5167.4313,-274"/>
+<text text-anchor="middle" x="5104" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamsComponent</text>
+</g>
+<!-- StreamsComponent&#45;&gt;StreamsModule -->
+<g id="edge78" class="edge">
+<title>StreamsComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M5104,-274.1944C5104,-282.2782 5104,-290 5104,-290 5104,-290 1533.705,-290 1533.705,-290 1533.705,-290 1533.705,-295.8056 1533.705,-295.8056"/>
+<polygon fill="#000000" stroke="#000000" points="1530.2051,-295.8055 1533.705,-305.8056 1537.2051,-295.8056 1530.2051,-295.8055"/>
+</g>
+<!-- StreamCreateComponent -->
+<g id="node73" class="node">
+<title>StreamCreateComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="5022.5183,-274 4865.4817,-274 4865.4817,-238 5022.5183,-238 5022.5183,-274"/>
+<text text-anchor="middle" x="4944" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamCreateComponent</text>
+</g>
+<!-- StreamCreateComponent&#45;&gt;StreamsModule -->
+<g id="edge79" class="edge">
+<title>StreamCreateComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M4944,-274.2434C4944,-281.4297 4944,-288 4944,-288 4944,-288 1523.9478,-288 1523.9478,-288 1523.9478,-288 1523.9478,-295.5782 1523.9478,-295.5782"/>
+<polygon fill="#000000" stroke="#000000" points="1520.4478,-295.5781 1523.9478,-305.5782 1527.4478,-295.5782 1520.4478,-295.5781"/>
+</g>
+<!-- StreamDefinitionsComponent -->
+<g id="node74" class="node">
+<title>StreamDefinitionsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="4846.9748,-274 4663.0252,-274 4663.0252,-238 4846.9748,-238 4846.9748,-274"/>
+<text text-anchor="middle" x="4755" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamDefinitionsComponent</text>
+</g>
+<!-- StreamDefinitionsComponent&#45;&gt;StreamsModule -->
+<g id="edge80" class="edge">
+<title>StreamDefinitionsComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M4755,-274.1432C4755,-280.4611 4755,-286 4755,-286 4755,-286 1514.1905,-286 1514.1905,-286 1514.1905,-286 1514.1905,-295.8903 1514.1905,-295.8903"/>
+<polygon fill="#000000" stroke="#000000" points="1510.6906,-295.8903 1514.1905,-305.8903 1517.6906,-295.8904 1510.6906,-295.8903"/>
+</g>
+<!-- StreamDetailsComponent -->
+<g id="node75" class="node">
+<title>StreamDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="4645.1386,-274 4484.8614,-274 4484.8614,-238 4645.1386,-238 4645.1386,-274"/>
+<text text-anchor="middle" x="4565" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamDetailsComponent</text>
+</g>
+<!-- StreamDetailsComponent&#45;&gt;StreamsModule -->
+<g id="edge81" class="edge">
+<title>StreamDetailsComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M4565,-274.1554C4565,-306.0979 4565,-369 4565,-369 4565,-369 1590.9274,-369 1590.9274,-369 1590.9274,-369 1590.9274,-352.0439 1590.9274,-352.0439"/>
+<polygon fill="#000000" stroke="#000000" points="1594.4275,-352.0439 1590.9274,-342.0439 1587.4275,-352.044 1594.4275,-352.0439"/>
+</g>
+<!-- StreamDeployComponent -->
+<g id="node76" class="node">
+<title>StreamDeployComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="4467.1979,-274 4304.8021,-274 4304.8021,-238 4467.1979,-238 4467.1979,-274"/>
+<text text-anchor="middle" x="4386" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamDeployComponent</text>
+</g>
+<!-- StreamDeployComponent&#45;&gt;StreamsModule -->
+<g id="edge82" class="edge">
+<title>StreamDeployComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M4386,-274.3294C4386,-305.8565 4386,-367 4386,-367 4386,-367 1593.0265,-367 1593.0265,-367 1593.0265,-367 1593.0265,-352.4854 1593.0265,-352.4854"/>
+<polygon fill="#000000" stroke="#000000" points="1596.5266,-352.4854 1593.0265,-342.4854 1589.5266,-352.4855 1596.5266,-352.4854"/>
+</g>
+<!-- StreamCreateDialogComponent -->
+<g id="node77" class="node">
+<title>StreamCreateDialogComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="4286.6204,-274 4091.3796,-274 4091.3796,-238 4286.6204,-238 4286.6204,-274"/>
+<text text-anchor="middle" x="4189" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamCreateDialogComponent</text>
+</g>
+<!-- StreamCreateDialogComponent&#45;&gt;StreamsModule -->
+<g id="edge83" class="edge">
+<title>StreamCreateDialogComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M4189,-274.4904C4189,-305.5885 4189,-365 4189,-365 4189,-365 1595.1257,-365 1595.1257,-365 1595.1257,-365 1595.1257,-352.1025 1595.1257,-352.1025"/>
+<polygon fill="#000000" stroke="#000000" points="1598.6258,-352.1025 1595.1257,-342.1025 1591.6258,-352.1026 1598.6258,-352.1025"/>
+</g>
+<!-- PropertiesDialogComponent -->
+<g id="node78" class="node">
+<title>PropertiesDialogComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="4073.1937,-274 3896.8063,-274 3896.8063,-238 4073.1937,-238 4073.1937,-274"/>
+<text text-anchor="middle" x="3985" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">PropertiesDialogComponent</text>
+</g>
+<!-- PropertiesDialogComponent&#45;&gt;StreamsModule -->
+<g id="edge84" class="edge">
+<title>PropertiesDialogComponent&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3985,-274.1511C3985,-304.6787 3985,-363 3985,-363 3985,-363 1597.2248,-363 1597.2248,-363 1597.2248,-363 1597.2248,-352.1299 1597.2248,-352.1299"/>
+<polygon fill="#000000" stroke="#000000" points="1600.7249,-352.1299 1597.2248,-342.1299 1593.7249,-352.1299 1600.7249,-352.1299"/>
+</g>
+<!-- StreamsRoutingModule -->
+<g id="node79" class="node">
+<title>StreamsRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="3872.766,-274 3869.766,-278 3848.766,-278 3845.766,-274 3723.234,-274 3723.234,-238 3872.766,-238 3872.766,-274"/>
+<text text-anchor="middle" x="3798" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamsRoutingModule</text>
+</g>
+<!-- StreamsRoutingModule&#45;&gt;StreamsModule -->
+<g id="edge85" class="edge">
+<title>StreamsRoutingModule&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3798,-274.0439C3798,-286.5633 3798,-301 3798,-301 3798,-301 1595.326,-301 1595.326,-301 1595.326,-301 1595.326,-301.4878 1595.326,-301.4878"/>
+<polygon fill="#000000" stroke="#000000" points="1591.8262,-295.8776 1595.326,-305.8777 1598.8262,-295.8778 1591.8262,-295.8776"/>
+</g>
+<!-- StreamsService -->
+<g id="node80" class="node">
+<title>StreamsService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="3628" cy="-256" rx="71.1998" ry="18"/>
+<text text-anchor="middle" x="3628" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">StreamsService</text>
+</g>
+<!-- StreamsService&#45;&gt;StreamsModule -->
+<g id="edge88" class="edge">
+<title>StreamsService&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3628,-274.1505C3628,-286.2708 3628,-300 3628,-300 3628,-300 1591.328,-300 1591.328,-300 1591.328,-300 1591.328,-300.581 1591.328,-300.581"/>
+<polygon fill="#000000" stroke="#000000" points="1587.8282,-295.8097 1591.328,-305.8097 1594.8282,-295.8098 1587.8282,-295.8097"/>
+</g>
+<!-- MetamodelService -->
+<g id="node81" class="node">
+<title>MetamodelService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="3455" cy="-256" rx="83.945" ry="18"/>
+<text text-anchor="middle" x="3455" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">MetamodelService</text>
+</g>
+<!-- MetamodelService&#45;&gt;StreamsModule -->
+<g id="edge89" class="edge">
+<title>MetamodelService&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3455,-274.0555C3455,-285.439 3455,-298 3455,-298 3455,-298 1587.33,-298 1587.33,-298 1587.33,-298 1587.33,-298.7942 1587.33,-298.7942"/>
+<polygon fill="#000000" stroke="#000000" points="1583.8301,-295.9421 1587.33,-305.9421 1590.8301,-295.9422 1583.8301,-295.9421"/>
+</g>
+<!-- RenderService -->
+<g id="node82" class="node">
+<title>RenderService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="3285" cy="-256" rx="67.7548" ry="18"/>
+<text text-anchor="middle" x="3285" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">RenderService</text>
+</g>
+<!-- RenderService&#45;&gt;StreamsModule -->
+<g id="edge90" class="edge">
+<title>RenderService&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3285,-274.1274C3285,-284.7109 3285,-296 3285,-296 3285,-296 1583.332,-296 1583.332,-296 1583.332,-296 1583.332,-296.9793 1583.332,-296.9793"/>
+<polygon fill="#000000" stroke="#000000" points="1579.8321,-295.793 1583.332,-305.793 1586.8321,-295.7931 1579.8321,-295.793"/>
+</g>
+<!-- EditorService -->
+<g id="node83" class="node">
+<title>EditorService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="3135" cy="-256" rx="64.261" ry="18"/>
+<text text-anchor="middle" x="3135" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">EditorService</text>
+</g>
+<!-- EditorService&#45;&gt;StreamsModule -->
+<g id="edge91" class="edge">
+<title>EditorService&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M3135,-274.1299C3135,-284.3145 3135,-295 3135,-295 3135,-295 1579.334,-295 1579.334,-295 1579.334,-295 1579.334,-296.0799 1579.334,-296.0799"/>
+<polygon fill="#000000" stroke="#000000" points="1575.8341,-295.7985 1579.334,-305.7985 1582.8341,-295.7986 1575.8341,-295.7985"/>
+</g>
+<!-- ContentAssistService -->
+<g id="node84" class="node">
+<title>ContentAssistService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="2959" cy="-256" rx="94.3543" ry="18"/>
+<text text-anchor="middle" x="2959" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">ContentAssistService</text>
+</g>
+<!-- ContentAssistService&#45;&gt;StreamsModule -->
+<g id="edge92" class="edge">
+<title>ContentAssistService&#45;&gt;StreamsModule</title>
+<path fill="none" stroke="#000000" d="M2959,-274.0664C2959,-283.4587 2959,-293 2959,-293 2959,-293 1575.336,-293 1575.336,-293 1575.336,-293 1575.336,-295.9672 1575.336,-295.9672"/>
+<polygon fill="#000000" stroke="#000000" points="1571.8361,-295.9671 1575.336,-305.9672 1578.8361,-295.9672 1571.8361,-295.9671"/>
+</g>
+<!-- TasksComponent -->
+<g id="node85" class="node">
+<title>TasksComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7358.9888,-274 7245.0112,-274 7245.0112,-238 7358.9888,-238 7358.9888,-274"/>
+<text text-anchor="middle" x="7302" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TasksComponent</text>
+</g>
+<!-- TasksComponent&#45;&gt;TasksModule -->
+<g id="edge93" class="edge">
+<title>TasksComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M7302,-274.1761C7302,-308.8445 7302,-381 7302,-381 7302,-381 1690.6619,-381 1690.6619,-381 1690.6619,-381 1690.6619,-352.0352 1690.6619,-352.0352"/>
+<polygon fill="#000000" stroke="#000000" points="1694.162,-352.0351 1690.6619,-342.0352 1687.162,-352.0352 1694.162,-352.0351"/>
+</g>
+<!-- TaskAppsComponent -->
+<g id="node86" class="node">
+<title>TaskAppsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7227.0954,-274 7088.9046,-274 7088.9046,-238 7227.0954,-238 7227.0954,-274"/>
+<text text-anchor="middle" x="7158" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskAppsComponent</text>
+</g>
+<!-- TaskAppsComponent&#45;&gt;TasksModule -->
+<g id="edge94" class="edge">
+<title>TaskAppsComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M7158,-274.0015C7158,-307.9379 7158,-378 7158,-378 7158,-378 1696.8089,-378 1696.8089,-378 1696.8089,-378 1696.8089,-352.2819 1696.8089,-352.2819"/>
+<polygon fill="#000000" stroke="#000000" points="1700.309,-352.2819 1696.8089,-342.2819 1693.309,-352.282 1700.309,-352.2819"/>
+</g>
+<!-- TaskDefinitionsComponent -->
+<g id="node87" class="node">
+<title>TaskDefinitionsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="7070.5336,-274 6899.4664,-274 6899.4664,-238 7070.5336,-238 7070.5336,-274"/>
+<text text-anchor="middle" x="6985" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskDefinitionsComponent</text>
+</g>
+<!-- TaskDefinitionsComponent&#45;&gt;TasksModule -->
+<g id="edge95" class="edge">
+<title>TaskDefinitionsComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M6985,-274.0735C6985,-307.3634 6985,-375 6985,-375 6985,-375 1702.956,-375 1702.956,-375 1702.956,-375 1702.956,-352.1243 1702.956,-352.1243"/>
+<polygon fill="#000000" stroke="#000000" points="1706.4561,-352.1243 1702.956,-342.1243 1699.4561,-352.1243 1706.4561,-352.1243"/>
+</g>
+<!-- TaskCreateComposedTaskComponent -->
+<g id="node88" class="node">
+<title>TaskCreateComposedTaskComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="6881.1741,-274 6648.8259,-274 6648.8259,-238 6881.1741,-238 6881.1741,-274"/>
+<text text-anchor="middle" x="6765" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskCreateComposedTaskComponent</text>
+</g>
+<!-- TaskCreateComposedTaskComponent&#45;&gt;TasksModule -->
+<g id="edge96" class="edge">
+<title>TaskCreateComposedTaskComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M6765,-274.2896C6765,-304.3728 6765,-361 6765,-361 6765,-361 1623.044,-361 1623.044,-361 1623.044,-361 1623.044,-352.0664 1623.044,-352.0664"/>
+<polygon fill="#000000" stroke="#000000" points="1626.5441,-352.0664 1623.044,-342.0664 1619.5441,-352.0665 1626.5441,-352.0664"/>
+</g>
+<!-- TaskExecutionsComponent -->
+<g id="node89" class="node">
+<title>TaskExecutionsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="6631.252,-274 6460.748,-274 6460.748,-238 6631.252,-238 6631.252,-274"/>
+<text text-anchor="middle" x="6546" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskExecutionsComponent</text>
+</g>
+<!-- TaskExecutionsComponent&#45;&gt;TasksModule -->
+<g id="edge97" class="edge">
+<title>TaskExecutionsComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M6546,-274.4143C6546,-304.0408 6546,-359 6546,-359 6546,-359 1629.1911,-359 1629.1911,-359 1629.1911,-359 1629.1911,-352.32 1629.1911,-352.32"/>
+<polygon fill="#000000" stroke="#000000" points="1632.6912,-352.32 1629.1911,-342.32 1625.6912,-352.3201 1632.6912,-352.32"/>
+</g>
+<!-- TaskExecutionsDetailsComponent -->
+<g id="node90" class="node">
+<title>TaskExecutionsDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="6442.4044,-274 6231.5956,-274 6231.5956,-238 6442.4044,-238 6442.4044,-274"/>
+<text text-anchor="middle" x="6337" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskExecutionsDetailsComponent</text>
+</g>
+<!-- TaskExecutionsDetailsComponent&#45;&gt;TasksModule -->
+<g id="edge98" class="edge">
+<title>TaskExecutionsDetailsComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M6337,-274.0568C6337,-303.108 6337,-357 6337,-357 6337,-357 1635.3381,-357 1635.3381,-357 1635.3381,-357 1635.3381,-352.0449 1635.3381,-352.0449"/>
+<polygon fill="#000000" stroke="#000000" points="1638.8382,-352.0448 1635.3381,-342.0449 1631.8382,-352.0449 1638.8382,-352.0448"/>
+</g>
+<!-- TaskAppDetailsComponent -->
+<g id="node91" class="node">
+<title>TaskAppDetailsComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="6214.3033,-274 6041.6967,-274 6041.6967,-238 6214.3033,-238 6214.3033,-274"/>
+<text text-anchor="middle" x="6128" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskAppDetailsComponent</text>
+</g>
+<!-- TaskAppDetailsComponent&#45;&gt;TasksModule -->
+<g id="edge99" class="edge">
+<title>TaskAppDetailsComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M6128,-274.1581C6128,-302.7386 6128,-355 6128,-355 6128,-355 1641.4852,-355 1641.4852,-355 1641.4852,-355 1641.4852,-352.0328 1641.4852,-352.0328"/>
+<polygon fill="#000000" stroke="#000000" points="1644.9853,-352.0328 1641.4852,-342.0328 1637.9853,-352.0329 1644.9853,-352.0328"/>
+</g>
+<!-- TaskCreateComponent -->
+<g id="node92" class="node">
+<title>TaskCreateComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="6023.5758,-274 5878.4242,-274 5878.4242,-238 6023.5758,-238 6023.5758,-274"/>
+<text text-anchor="middle" x="5951" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskCreateComponent</text>
+</g>
+<!-- TaskCreateComponent&#45;&gt;TasksModule -->
+<g id="edge100" class="edge">
+<title>TaskCreateComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M5951,-274.245C5951,-302.3435 5951,-353 5951,-353 5951,-353 1647.6323,-353 1647.6323,-353 1647.6323,-353 1647.6323,-351.9201 1647.6323,-351.9201"/>
+<polygon fill="#000000" stroke="#000000" points="1651.1324,-352.2014 1647.6323,-342.2015 1644.1324,-352.2015 1651.1324,-352.2014"/>
+</g>
+<!-- TaskBulkDefineComponent -->
+<g id="node93" class="node">
+<title>TaskBulkDefineComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="5860.8585,-274 5687.1415,-274 5687.1415,-238 5860.8585,-238 5860.8585,-274"/>
+<text text-anchor="middle" x="5774" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskBulkDefineComponent</text>
+</g>
+<!-- TaskBulkDefineComponent&#45;&gt;TasksModule -->
+<g id="edge101" class="edge">
+<title>TaskBulkDefineComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M5774,-274.317C5774,-301.9229 5774,-351 5774,-351 5774,-351 1653.7794,-351 1653.7794,-351 1653.7794,-351 1653.7794,-350.1159 1653.7794,-350.1159"/>
+<polygon fill="#000000" stroke="#000000" points="1657.2795,-352.1591 1653.7794,-342.1592 1650.2795,-352.1592 1657.2795,-352.1591"/>
+</g>
+<!-- TaskLaunchComponent -->
+<g id="node94" class="node">
+<title>TaskLaunchComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="5669.0267,-274 5518.9733,-274 5518.9733,-238 5669.0267,-238 5669.0267,-274"/>
+<text text-anchor="middle" x="5594" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TaskLaunchComponent</text>
+</g>
+<!-- TaskLaunchComponent&#45;&gt;TasksModule -->
+<g id="edge102" class="edge">
+<title>TaskLaunchComponent&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M5594,-274.3738C5594,-301.4769 5594,-349 5594,-349 5594,-349 1659.9265,-349 1659.9265,-349 1659.9265,-349 1659.9265,-348.3169 1659.9265,-348.3169"/>
+<polygon fill="#000000" stroke="#000000" points="1663.4266,-352.1686 1659.9265,-342.1686 1656.4266,-352.1687 1663.4266,-352.1686"/>
+</g>
+<!-- TasksRoutingModule -->
+<g id="node95" class="node">
+<title>TasksRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="5494.8244,-274 5491.8244,-278 5470.8244,-278 5467.8244,-274 5357.1756,-274 5357.1756,-238 5494.8244,-238 5494.8244,-274"/>
+<text text-anchor="middle" x="5426" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TasksRoutingModule</text>
+</g>
+<!-- TasksRoutingModule&#45;&gt;TasksModule -->
+<g id="edge103" class="edge">
+<title>TasksRoutingModule&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M5426,-274.4152C5426,-301.0057 5426,-347 5426,-347 5426,-347 1666.0735,-347 1666.0735,-347 1666.0735,-347 1666.0735,-346.5122 1666.0735,-346.5122"/>
+<polygon fill="#000000" stroke="#000000" points="1669.5738,-352.1222 1666.0735,-342.1223 1662.5738,-352.1224 1669.5738,-352.1222"/>
+</g>
+<!-- TasksService -->
+<g id="node96" class="node">
+<title>TasksService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="5270" cy="-256" rx="62.5354" ry="18"/>
+<text text-anchor="middle" x="5270" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">TasksService</text>
+</g>
+<!-- TasksService&#45;&gt;TasksModule -->
+<g id="edge106" class="edge">
+<title>TasksService&#45;&gt;TasksModule</title>
+<path fill="none" stroke="#000000" d="M5270,-274.0105C5270,-300.0165 5270,-345 5270,-345 5270,-345 1672.2206,-345 1672.2206,-345 1672.2206,-345 1672.2206,-344.708 1672.2206,-344.708"/>
+<polygon fill="#000000" stroke="#000000" points="1675.721,-352.0799 1672.2206,-342.08 1668.721,-352.0802 1675.721,-352.0799"/>
+</g>
+</g>
+</svg>
+
+                </div>
+                <div class="btn-group">
+                    <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+                    <button id="reset" class="btn btn-default btn-sm">Reset</button>
+                    <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+                </div>
+            </div>
+<div class="container-fluid overview">
+    <div class="row">
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-archive"></span></h4>
+                        <p class="card-text">
+                            <a href="./modules.html">19 modules</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-cogs"></span></h4>
+                        <p class="card-text">40 components</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code"></span></h4>
+                        <p class="card-text">3 directives</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">16 injectables</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-plus"></span></h4>
+                        <p class="card-text">6 pipes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-file-code-o"></span></h4>
+                        <p class="card-text">62 classes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-info"></span></h4>
+                        <p class="card-text">6 interfaces</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">
+                            <a href="./routes.html">29 routes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="js/libs/svg-pan-zoom.min.js"></script>
+<script src="js/svg-pan-zoom.controls.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>
