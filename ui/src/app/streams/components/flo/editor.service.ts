@@ -20,6 +20,8 @@ import { Flo, Constants } from 'spring-flo';
 import { dia, g } from 'jointjs';
 import { Utils as SharedUtils } from '../../../shared/flo/support/utils';
 import * as _joint from 'jointjs';
+import { AppMetadata } from "../../../shared/flo/support/app-metadata";
+import * as _ from 'lodash';
 
 const joint: any = _joint;
 
@@ -533,63 +535,63 @@ export class EditorService implements Flo.Editor {
 
     // TODO This validation below is commented out until multiple ports support is a go
 
-    // const incomingGroups = _.groupBy(incoming, link => link.attr('props/inputChannel') || '');
-    // Object.keys(incomingGroups).forEach(channel => {
-    //   const group = incomingGroups[channel];
-    //
-    //   // Error on unresolved channels not present in metamodel
-    //   if (channel && element.attr('metadata') instanceof AppMetadata) {
-    //     const inputChannels = (<AppMetadata> element.attr('metadata')).inputChannels;
-    //     if (!Array.isArray(inputChannels) || inputChannels.indexOf(channel) < 0) {
-    //       errors.push({
-    //         severity: Flo.Severity.Error,
-    //         message: `Incoming link to unresolved channel '${channel}'`,
-    //         range: element.attr('range')
-    //       });
-    //     }
-    //   }
-    //
-    //   // More than one incoming primary link on the same channel is disallowed
-    //   const primaryLinks = group.filter(l => !l.attr('props/isTapLink'));
-    //   if (primaryLinks.length > 1) {
-    //     const label = channel ? `More than one incoming non-tap links to channel ${channel}`
-    //       : `More than one incoming non-tap link to element`;
-    //     errors.push({
-    //       severity: Flo.Severity.Error,
-    //       message: label,
-    //       range: element.attr('range')
-    //     });
-    //   }
-    // });
-    //
-    // const outgoingGroups = _.groupBy(outgoing, link => link.attr('props/outputChannel') || '');
-    // Object.keys(outgoingGroups).forEach(channel => {
-    //   const group = outgoingGroups[channel];
-    //
-    //   // Error on unresolved channels not present in metamodel
-    //   if (channel && element.attr('metadata') instanceof AppMetadata) {
-    //     const outputChannels = (<AppMetadata> element.attr('metadata')).outputChannels;
-    //     if (!Array.isArray(outputChannels) || outputChannels.indexOf(channel) < 0) {
-    //       errors.push({
-    //         severity: Flo.Severity.Error,
-    //         message: `Outgoing link from unresolved channel '${channel}'`,
-    //         range: element.attr('range')
-    //       });
-    //     }
-    //   }
-    //
-    //   // More than one outgoing primary link on the same channel is disallowed
-    //   const primaryLinks = group.filter(l => !l.attr('props/isTapLink'));
-    //   if (primaryLinks.length > 1) {
-    //     const label = channel ? `More than one outgoing non-tap links from channel ${channel}`
-    //       : `More than one outgoing non-tap link from element`;
-    //     errors.push({
-    //       severity: Flo.Severity.Error,
-    //       message: label,
-    //       range: element.attr('range')
-    //     });
-    //   }
-    // });
+    const incomingGroups = _.groupBy(incoming, link => link.attr('props/inputChannel') || '');
+    Object.keys(incomingGroups).forEach(channel => {
+      const group = incomingGroups[channel];
+
+      // Error on unresolved channels not present in metamodel
+      if (channel && element.attr('metadata') instanceof AppMetadata) {
+        const inputChannels = (<AppMetadata> element.attr('metadata')).inputChannels;
+        if (!Array.isArray(inputChannels) || inputChannels.indexOf(channel) < 0) {
+          errors.push({
+            severity: Flo.Severity.Error,
+            message: `Incoming link to unresolved channel '${channel}'`,
+            range: element.attr('range')
+          });
+        }
+      }
+
+      // More than one incoming primary link on the same channel is disallowed
+      const primaryLinks = group.filter(l => !l.attr('props/isTapLink'));
+      if (primaryLinks.length > 1) {
+        const label = channel ? `More than one incoming non-tap links to channel ${channel}`
+          : `More than one incoming non-tap link to element`;
+        errors.push({
+          severity: Flo.Severity.Error,
+          message: label,
+          range: element.attr('range')
+        });
+      }
+    });
+
+    const outgoingGroups = _.groupBy(outgoing, link => link.attr('props/outputChannel') || '');
+    Object.keys(outgoingGroups).forEach(channel => {
+      const group = outgoingGroups[channel];
+
+      // Error on unresolved channels not present in metamodel
+      if (channel && element.attr('metadata') instanceof AppMetadata) {
+        const outputChannels = (<AppMetadata> element.attr('metadata')).outputChannels;
+        if (!Array.isArray(outputChannels) || outputChannels.indexOf(channel) < 0) {
+          errors.push({
+            severity: Flo.Severity.Error,
+            message: `Outgoing link from unresolved channel '${channel}'`,
+            range: element.attr('range')
+          });
+        }
+      }
+
+      // More than one outgoing primary link on the same channel is disallowed
+      const primaryLinks = group.filter(l => !l.attr('props/isTapLink'));
+      if (primaryLinks.length > 1) {
+        const label = channel ? `More than one outgoing non-tap links from channel ${channel}`
+          : `More than one outgoing non-tap link from element`;
+        errors.push({
+          severity: Flo.Severity.Error,
+          message: label,
+          range: element.attr('range')
+        });
+      }
+    });
 
   }
 
